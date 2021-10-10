@@ -2,6 +2,7 @@ AuthorName: xarantolus
 Categories:
     - fdroid
 CurrentVersion: 1.4.0
+CurrentVersionCode: 1
 IssueTracker: ""
 License: MIT
 Name: Notality
