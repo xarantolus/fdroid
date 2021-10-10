@@ -3,6 +3,7 @@ Categories:
     - fdroid
 CurrentVersion: 1.4.0
 IssueTracker: ""
+License: MIT
 Name: Notality
 SourceCode: https://github.com/xarantolus/notality
 Summary: A very simple note taking app for Android.
