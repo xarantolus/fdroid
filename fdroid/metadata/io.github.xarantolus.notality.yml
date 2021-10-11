@@ -1,8 +1,8 @@
 AuthorName: xarantolus
 Categories:
     - fdroid
-CurrentVersion: 1.4.1
-CurrentVersionCode: 2
+CurrentVersion: 1.4.2
+CurrentVersionCode: 3
 Description: |
     Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.
 
