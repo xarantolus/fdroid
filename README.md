@@ -21,6 +21,9 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
 ### Apps
 
 <!-- This table is auto-generated. Do not edit -->
+| Icon | Name | Description | Version |
+| --- | --- | --- | --- |
+| <a href="https://github.com/xarantolus/notality"><img src="fdroid/repo/icons/io.github.xarantolus.notality.3.png" alt="Notality icon" width="36px" height="36px"></a> | [**Notality**](https://github.com/xarantolus/notality) | A very simple note taking app for Android. | 1.4.2 (3) |
 <!-- end apps table -->
 
 ### For developers
