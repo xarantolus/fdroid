@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1634024480000,
+    "timestamp": 1634277264000,
     "version": 20000,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -15,7 +15,7 @@
     {
       "authorName": "xarantolus",
       "categories": [
-        "fdroid"
+        "Writing"
       ],
       "suggestedVersionName": "1.4.2",
       "suggestedVersionCode": "3",
@@ -24,10 +24,10 @@
       "name": "Notality",
       "sourceCode": "https://github.com/xarantolus/notality",
       "summary": "A very simple note taking app for Android.",
-      "added": 1634024467000,
+      "added": 1634277253000,
       "icon": "io.github.xarantolus.notality.3.png",
       "packageName": "io.github.xarantolus.notality",
-      "lastUpdated": 1634024474000,
+      "lastUpdated": 1634277259000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -44,7 +44,7 @@
   "packages": {
     "io.github.xarantolus.notality": [
       {
-        "added": 1634024474000,
+        "added": 1634277259000,
         "apkName": "notality_v1.4.2.apk",
         "hash": "408a950aea0dd357a74480cf7599467e5e408bbb4fee39872d37e2ebe1eee159",
         "hashType": "sha256",
@@ -63,7 +63,7 @@
         "versionName": "1.4.2"
       },
       {
-        "added": 1634024473000,
+        "added": 1634277258000,
         "apkName": "notality_v1.4.1.apk",
         "hash": "30cc88d156bd04285f926d6ebd0a7db1212ff6c0f580c6aa283302c4203a4934",
         "hashType": "sha256",
@@ -82,7 +82,7 @@
         "versionName": "1.4.1"
       },
       {
-        "added": 1634024467000,
+        "added": 1634277253000,
         "apkName": "notality_v1.0.0.apk",
         "hash": "ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b",
         "hashType": "sha256",
@@ -101,7 +101,7 @@
         "versionName": "1.0.0"
       },
       {
-        "added": 1634024468000,
+        "added": 1634277254000,
         "apkName": "notality_v1.0.1.apk",
         "hash": "d8870de8cb06bec2a97741a16cf2b1c3ddfd6ad12a94cb08076be25ae1c9312f",
         "hashType": "sha256",
@@ -120,7 +120,7 @@
         "versionName": "1.0.1"
       },
       {
-        "added": 1634024469000,
+        "added": 1634277255000,
         "apkName": "notality_v1.1.0.apk",
         "hash": "0fea0e3520d0c78b5bdfe58a7126ef08fe35946599708457f34df37245e777b5",
         "hashType": "sha256",
@@ -139,7 +139,7 @@
         "versionName": "1.1.0"
       },
       {
-        "added": 1634024470000,
+        "added": 1634277256000,
         "apkName": "notality_v1.2.0.apk",
         "hash": "ba61ec170c9877ff4ce1f3f7cb15f9fb418f82f57c4d3c01553489756a2115c6",
         "hashType": "sha256",
@@ -158,7 +158,7 @@
         "versionName": "1.2.0"
       },
       {
-        "added": 1634024471000,
+        "added": 1634277257000,
         "apkName": "notality_v1.3.0.apk",
         "hash": "c443456385cfe89ce3423ed78e73e1fe08bf22d4c76370ef8c5ae62de54a3871",
         "hashType": "sha256",
@@ -177,7 +177,7 @@
         "versionName": "1.3.0"
       },
       {
-        "added": 1634024472000,
+        "added": 1634277258000,
         "apkName": "notality_v1.4.0.apk",
         "hash": "e90c0e9372176c33c8a9dcf626fad718d2cd31ddda7f8ae9505c49b77e5a9d4d",
         "hashType": "sha256",
