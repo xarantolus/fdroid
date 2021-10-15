@@ -8,3 +8,8 @@ notality:
     - Create, edit, delete and reorder notes
     - Automatic dark/light mode depending on the system-wide setting
     - Localization for English and German
+
+  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+  # you can use any name here, but you should look at the existing categories first
+  categories: 
+    - Writing
