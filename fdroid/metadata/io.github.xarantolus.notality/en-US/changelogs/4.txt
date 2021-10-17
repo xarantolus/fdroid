@@ -1,0 +1,1 @@
+This release fixes a bug where notes were loaded twice, which was unnecessary.
