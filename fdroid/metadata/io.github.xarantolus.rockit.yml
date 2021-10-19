@@ -1,0 +1,24 @@
+AntiFeatures: NonFreeNet
+AuthorName: xarantolus
+Categories:
+    - Internet
+    - Science & Education
+CurrentVersion: 0.0.1
+CurrentVersionCode: 1
+Description: |
+    Rock It! helps you stay informed on all things space.
+    It displays upcoming launches and current space news curated by <a href="https://thespacedevs.com/">The Space Devs</a>.
+
+    <b>Features</b>
+
+    - List upcoming launches
+    - Show launch details and a countdown
+    - List latest space news articles
+    - Localization for English and German
+
+    The app connects to the Launch Library and Spaceflight News API to get information about launches.
+IssueTracker: ""
+Name: Rock It!
+SourceCode: https://github.com/xarantolus/rockit
+Summary: ""
+WebSite: ""

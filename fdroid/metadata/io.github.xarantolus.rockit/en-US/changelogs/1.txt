@@ -1,0 +1,2 @@
+This initial release contains the very basic app. 
+It displays upcoming launches and space news.
