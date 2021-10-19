@@ -13,3 +13,26 @@ notality:
   # you can use any name here, but you should look at the existing categories first
   categories: 
     - Writing
+
+
+notality:
+  git: https://github.com/xarantolus/rockit
+  description: |
+    Rock It! helps you stay informed on all things space.
+    It displays upcoming launches and current space news curated by <a href="https://thespacedevs.com/">The Space Devs</a>.
+
+    <b>Features</b>
+
+    - List upcoming launches
+    - Show launch details and a countdown
+    - List latest space news articles
+    - Localization for English and German
+
+    The app connects to the Launch Library and Spaceflight News API to get information about launches.
+
+  categories: 
+    - Internet
+    - Science & Education
+
+  anti_features:
+    - NonFreeNet
