@@ -15,7 +15,7 @@ notality:
     - Writing
 
 
-notality:
+rockit:
   git: https://github.com/xarantolus/rockit
   description: |
     Rock It! helps you stay informed on all things space.
