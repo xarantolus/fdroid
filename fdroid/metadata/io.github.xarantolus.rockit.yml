@@ -18,7 +18,8 @@ Description: |
 
     The app connects to the Launch Library and Spaceflight News API to get information about launches.
 IssueTracker: ""
+License: MIT
 Name: Rock It!
 SourceCode: https://github.com/xarantolus/rockit
-Summary: ""
+Summary: Rock It! is an app that helps you stay informed on all things space
 WebSite: ""
