@@ -1,0 +1,1 @@
+The app now uses previously downloaded responses in case something doesn't work while downloading the latest updates.
