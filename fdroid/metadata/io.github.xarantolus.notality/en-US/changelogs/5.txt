@@ -1,0 +1,2 @@
+*  Encode notes correctly when exporting, that way importing will always work now
+*  Make notes card more compact 
