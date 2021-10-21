@@ -7,6 +7,7 @@ notality:
 
     - Create, edit, delete and reorder notes
     - Automatic dark/light mode depending on the system-wide setting
+    - Import/Export your notes to save them externally
     - Localization for English and German
 
   # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
