@@ -29,7 +29,9 @@ rockit:
     - List latest space news articles
     - Localization for English and German
 
-    The app connects to the Launch Library and Spaceflight News API to get information about launches.
+    The app connects to the Launch Library and Spaceflight News API to get information about launches. 
+    Additionality, it might connect to other hosts (e.g. YouTube) to receive video thumbnails. 
+    Since none of these services are free software, it's labeled with "NonFreeNet".
 
   categories: 
     - Internet
