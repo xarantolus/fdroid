@@ -1,0 +1,4 @@
+* Render updates for events
+* Improve date formats by including the week day where it makes sense
+
+See #2 
