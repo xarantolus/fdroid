@@ -1,0 +1,6 @@
+The app bar at the top now looks nicer. 
+There's also fix to a small bug that could have caused a deleted note not to be deleted when the app was closed fast enough.
+
+|                 Old listing page                   |               New listing page           |
+| :-------------------------------------------------------: | :--------------------------------------------------------: |
+| ![Old screenshot](https://github.com/xarantolus/notality/blob/fa689ba1101271b73d750b5d3a3316d9a535266d/.github/screenshots/d-listing.png?raw=true) | ![New screenshot](https://github.com/xarantolus/notality/blob/2a7438472059bfea82d7012de6d3eb5bb8d99821/.github/screenshots/d-listing.png?raw=true) |
