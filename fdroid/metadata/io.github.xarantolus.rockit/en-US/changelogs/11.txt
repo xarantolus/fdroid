@@ -1,0 +1,5 @@
+* Add ripple effect to article cards 
+* Custom, colored app bar that looks better
+* Efficiency improvements in page layout rebuilding
+* More bouncing effects
+* Launch/Event images now fill up the entire area they are allowed to
