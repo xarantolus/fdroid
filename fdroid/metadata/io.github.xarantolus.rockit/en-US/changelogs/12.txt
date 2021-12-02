@@ -1,0 +1,6 @@
+- **Subscribe to events to receive notifications**
+- **Render program info (e.g. the Starship program) in launch & event details**
+- Generally a lot of improvements for date formats (also respect 24h date format setting)
+- Dates are now shown in a more friendly manner (e.g. "Today, 12:30" etc)
+- Improved error handling (you can now retry everything that could fail)
+- Improved notification scheduling
