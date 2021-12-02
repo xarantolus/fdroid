@@ -24,13 +24,15 @@ rockit:
 
     <b>Features</b>
 
-    - List upcoming launches
-    - Show launch details and a countdown
+    - List upcoming launches and events (e.g. space station activity)
+    - Show launch/event details and a countdown (including the date and time in your local timezone)
     - List latest space news articles
-    - Localization for English and German
+    - Subscribe to launches or events to receive notifications before they start
+    - Localization for English and German (UI only, data is in English)
+    - No internet? No problem! The app caches offline content for a few days and updates it when connected to the internet
 
     The app connects to the Launch Library and Spaceflight News API to get information about launches. 
-    Additionality, it might connect to other hosts (e.g. YouTube) to receive video thumbnails. 
+    Additionality, it might connect to other hosts (e.g. YouTube) to receive video and article thumbnails. 
     Since none of these services are free software, it's labeled with "NonFreeNet".
 
   categories: 
