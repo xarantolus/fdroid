@@ -3,8 +3,8 @@ AuthorName: xarantolus
 Categories:
     - Internet
     - Science & Education
-CurrentVersion: 0.8.0
-CurrentVersionCode: 12
+CurrentVersion: 1.0.0
+CurrentVersionCode: 13
 Description: |
     Rock It! helps you stay informed on all things space.
     It displays upcoming launches and current space news curated by <a href="https://thespacedevs.com/">The Space Devs</a>.
