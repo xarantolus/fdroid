@@ -1,0 +1,1 @@
+This release improves error handling. The app now also respects the "Use 24-hour format" Android setting.
