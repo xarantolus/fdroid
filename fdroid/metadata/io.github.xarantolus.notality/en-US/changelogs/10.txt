@@ -1,1 +1,1 @@
-I just found out how to make the swipe animation (when deleting a note) a lot better. So this release contains that change,
+I just found out how to make the swipe animation (when deleting a note) a lot better. So this release contains that change.
