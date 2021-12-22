@@ -1,0 +1,5 @@
+Changes:
+* Copy links when holding long on all linking widgets
+* Improve loading of launches, events and articles
+* Add landscape mode for event/launch listing
+* Build the app for web, now available on [my website](https://rockit.010.one/#/)
