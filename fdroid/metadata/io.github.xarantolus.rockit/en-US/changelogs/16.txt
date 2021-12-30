@@ -1,0 +1,4 @@
+- Switching countdown modes now no longer requires tapping the text exactly, only the widget *with* the text
+- Make launch details page look a bit better
+- Allow images to be larger on event & launch details pages, looks better
+- Improve web experience: update icons, metadata & data fetching
