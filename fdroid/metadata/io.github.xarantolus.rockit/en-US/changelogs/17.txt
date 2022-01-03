@@ -1,0 +1,3 @@
+Changes:
+* Add a custom loading animation
+* Always show domain in article widgets
