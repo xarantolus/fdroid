@@ -1,5 +1,6 @@
 notality:
   git: https://github.com/xarantolus/notality
+  name: "Notality"
   description: |
     Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.
 
@@ -18,6 +19,7 @@ notality:
 
 rockit:
   git: https://github.com/xarantolus/rockit
+  name: "Rock It!"
   description: |
     Rock It! helps you stay informed on all things space.
     It displays upcoming launches and current space news curated by <a href="https://thespacedevs.com/">The Space Devs</a>.
