@@ -1,0 +1,6 @@
+Changes:
+* Improve date format for negative countdown values
+* Article Cards: Improve news site overlay
+* Make article cards larger
+* Improve logic for launch/event update notifications
+* Improve date format for current year in launches/events listing
