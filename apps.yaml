@@ -22,7 +22,7 @@ rockit:
   name: "Rock It!"
   description: |
     Rock It! helps you stay informed on all things space.
-    It displays upcoming launches and current space news curated by <a href="https://thespacedevs.com/">The Space Devs</a>.
+    It displays upcoming rocket launches and current space news curated by <a href="https://thespacedevs.com/">The Space Devs</a>.
 
     <b>Features</b>
 
