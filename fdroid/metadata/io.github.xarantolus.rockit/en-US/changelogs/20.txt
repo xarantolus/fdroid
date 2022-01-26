@@ -1,0 +1,8 @@
+Changes:
+- Make notifications actually open the respective page in the app
+- Display day names and times for days within the next week (instead of only the date)
+- Fix weird bouncing scroll when leaving the last detail view of a list
+- Load 50 launches / events at once (instead of 25), this makes it less likely to get limited by the server
+
+
+Please note that launches you were subscribed to before this update might get wrong notifications (the ones that were already scheduled) at some point due to the notification logic being changed.
