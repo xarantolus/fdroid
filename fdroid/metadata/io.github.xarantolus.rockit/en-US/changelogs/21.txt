@@ -1,0 +1,3 @@
+- Added a new page that shows launches and events you're subscribed to
+- The planet spinner loading animation now looks a bit nicer 
+- Only run background tasks if the network is available
