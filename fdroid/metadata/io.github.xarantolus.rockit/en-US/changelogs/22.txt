@@ -1,0 +1,3 @@
+- Added a search page. You can now search launches and events easily.
+- The launch details page now shows more info on boosters and landings
+- Improve date display for things within the next week
