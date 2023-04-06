@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1680680326000,
+    "timestamp": 1680749730000,
     "version": 20002,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -24,10 +24,10 @@
       "name": "Notality",
       "sourceCode": "https://github.com/xarantolus/notality",
       "summary": "A very simple note taking app for Android",
-      "added": 1680680271000,
+      "added": 1680749681000,
       "icon": "io.github.xarantolus.notality.10.png",
       "packageName": "io.github.xarantolus.notality",
-      "lastUpdated": 1680680285000,
+      "lastUpdated": 1680749694000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -56,9 +56,9 @@
       "name": "Rock It!",
       "sourceCode": "https://github.com/xarantolus/rockit",
       "summary": "Rock It! is an Android app that helps you stay informed on all things space",
-      "added": 1680680286000,
+      "added": 1680749695000,
       "packageName": "io.github.xarantolus.rockit",
-      "lastUpdated": 1680680306000,
+      "lastUpdated": 1680749714000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -83,7 +83,7 @@
   "packages": {
     "io.github.xarantolus.notality": [
       {
-        "added": 1680680285000,
+        "added": 1680749694000,
         "apkName": "notality_v1.8.1.apk",
         "hash": "a2c14612ca0cac122e2a1c71f9bd3e36bf42dc774dfdb6386cea77238e3c0010",
         "hashType": "sha256",
@@ -102,7 +102,7 @@
         "versionName": "1.8.1"
       },
       {
-        "added": 1680680284000,
+        "added": 1680749693000,
         "apkName": "notality_v1.8.0.apk",
         "hash": "9da33a99e9a8041044b060935907985bd644558e6c93efad9721840971f811e2",
         "hashType": "sha256",
@@ -121,7 +121,7 @@
         "versionName": "1.8.0"
       },
       {
-        "added": 1680680283000,
+        "added": 1680749692000,
         "apkName": "notality_v1.7.0.apk",
         "hash": "7b48074dc5cda19179af23ec76b04aee217ef2be1df3cd96f2cf919f0a506c6b",
         "hashType": "sha256",
@@ -140,7 +140,7 @@
         "versionName": "1.7.0"
       },
       {
-        "added": 1680680282000,
+        "added": 1680749691000,
         "apkName": "notality_v1.6.1.apk",
         "hash": "4086ed6b256f3e25ca40e70a633c720e06d630a617b19741662b0e59b8fe6148",
         "hashType": "sha256",
@@ -159,7 +159,7 @@
         "versionName": "1.6.1"
       },
       {
-        "added": 1680680281000,
+        "added": 1680749691000,
         "apkName": "notality_v1.6.0.apk",
         "hash": "40737ccc9f77f76ea8bee95b732be62bbc8de9092d9b7dd2d3fb5073c4b4f102",
         "hashType": "sha256",
@@ -178,7 +178,7 @@
         "versionName": "1.6.0"
       },
       {
-        "added": 1680680280000,
+        "added": 1680749690000,
         "apkName": "notality_v1.5.0.apk",
         "hash": "38a43c4dd82a90597592514c456319857a76028f3a8d7b9fe30af766a87980c8",
         "hashType": "sha256",
@@ -197,7 +197,7 @@
         "versionName": "1.5.0"
       },
       {
-        "added": 1680680279000,
+        "added": 1680749689000,
         "apkName": "notality_v1.4.3.apk",
         "hash": "321ef6a518804dd8d895f1b75d8ac97bd14367f75eeb2bd7cc5389fbfa425422",
         "hashType": "sha256",
@@ -216,7 +216,7 @@
         "versionName": "1.4.3"
       },
       {
-        "added": 1680680278000,
+        "added": 1680749688000,
         "apkName": "notality_v1.4.2.apk",
         "hash": "408a950aea0dd357a74480cf7599467e5e408bbb4fee39872d37e2ebe1eee159",
         "hashType": "sha256",
@@ -235,7 +235,7 @@
         "versionName": "1.4.2"
       },
       {
-        "added": 1680680277000,
+        "added": 1680749687000,
         "apkName": "notality_v1.4.1.apk",
         "hash": "30cc88d156bd04285f926d6ebd0a7db1212ff6c0f580c6aa283302c4203a4934",
         "hashType": "sha256",
@@ -254,7 +254,7 @@
         "versionName": "1.4.1"
       },
       {
-        "added": 1680680271000,
+        "added": 1680749681000,
         "apkName": "notality_v1.0.0.apk",
         "hash": "ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b",
         "hashType": "sha256",
@@ -273,7 +273,7 @@
         "versionName": "1.0.0"
       },
       {
-        "added": 1680680272000,
+        "added": 1680749682000,
         "apkName": "notality_v1.0.1.apk",
         "hash": "d8870de8cb06bec2a97741a16cf2b1c3ddfd6ad12a94cb08076be25ae1c9312f",
         "hashType": "sha256",
@@ -292,7 +292,7 @@
         "versionName": "1.0.1"
       },
       {
-        "added": 1680680273000,
+        "added": 1680749683000,
         "apkName": "notality_v1.1.0.apk",
         "hash": "0fea0e3520d0c78b5bdfe58a7126ef08fe35946599708457f34df37245e777b5",
         "hashType": "sha256",
@@ -311,7 +311,7 @@
         "versionName": "1.1.0"
       },
       {
-        "added": 1680680274000,
+        "added": 1680749684000,
         "apkName": "notality_v1.2.0.apk",
         "hash": "ba61ec170c9877ff4ce1f3f7cb15f9fb418f82f57c4d3c01553489756a2115c6",
         "hashType": "sha256",
@@ -330,7 +330,7 @@
         "versionName": "1.2.0"
       },
       {
-        "added": 1680680275000,
+        "added": 1680749685000,
         "apkName": "notality_v1.3.0.apk",
         "hash": "c443456385cfe89ce3423ed78e73e1fe08bf22d4c76370ef8c5ae62de54a3871",
         "hashType": "sha256",
@@ -349,7 +349,7 @@
         "versionName": "1.3.0"
       },
       {
-        "added": 1680680276000,
+        "added": 1680749686000,
         "apkName": "notality_v1.4.0.apk",
         "hash": "e90c0e9372176c33c8a9dcf626fad718d2cd31ddda7f8ae9505c49b77e5a9d4d",
         "hashType": "sha256",
@@ -370,7 +370,7 @@
     ],
     "io.github.xarantolus.rockit": [
       {
-        "added": 1680680306000,
+        "added": 1680749714000,
         "apkName": "rockit_v1.5.0.apk",
         "hash": "3e4398a041e11ccc0fe3d1684a36675a821705c6be0c10b56220ba19f44b7acb",
         "hashType": "sha256",
@@ -423,7 +423,7 @@
         "versionName": "1.5.0"
       },
       {
-        "added": 1680680305000,
+        "added": 1680749713000,
         "apkName": "rockit_v1.4.0.apk",
         "hash": "33867c58a05b19fb07074095e9c4fd59a066f37ec13c8f9648a12aa0edf03aba",
         "hashType": "sha256",
@@ -476,7 +476,7 @@
         "versionName": "1.4.0"
       },
       {
-        "added": 1680680304000,
+        "added": 1680749712000,
         "apkName": "rockit_v1.3.4.apk",
         "hash": "4ac68bb79a0eb2739a263166d40ac5c612a82e61eb180d07813e43dce778678a",
         "hashType": "sha256",
@@ -529,7 +529,7 @@
         "versionName": "1.3.4"
       },
       {
-        "added": 1680680303000,
+        "added": 1680749711000,
         "apkName": "rockit_v1.3.3.apk",
         "hash": "871e49d2362b02ae6dbca7a66770ceece1e10568a94d0f730a656b9ecb040892",
         "hashType": "sha256",
@@ -582,7 +582,7 @@
         "versionName": "1.3.3"
       },
       {
-        "added": 1680680302000,
+        "added": 1680749710000,
         "apkName": "rockit_v1.3.2.apk",
         "hash": "ebc0050a4bd19212b462537c91087329024ecd0fe56a0b8b78086ea6e71119e9",
         "hashType": "sha256",
@@ -635,7 +635,7 @@
         "versionName": "1.3.2"
       },
       {
-        "added": 1680680300000,
+        "added": 1680749709000,
         "apkName": "rockit_v1.3.1.apk",
         "hash": "edc66ead58e6af93f2d498506f1a6f52c33e442773e64c220925b02d4ad13b00",
         "hashType": "sha256",
@@ -688,7 +688,7 @@
         "versionName": "1.3.1"
       },
       {
-        "added": 1680680299000,
+        "added": 1680749708000,
         "apkName": "rockit_v1.3.0.apk",
         "hash": "f0786af8d11787f1620ba535e7c5d961ce2c0f5f199af177b3027ce57a1692ea",
         "hashType": "sha256",
@@ -741,7 +741,7 @@
         "versionName": "1.3.0"
       },
       {
-        "added": 1680680298000,
+        "added": 1680749707000,
         "apkName": "rockit_v1.2.0.apk",
         "hash": "ba0e48c913a138e8b99fe46aa2b8b39833d078c94e8d76b70e734926578205b3",
         "hashType": "sha256",
@@ -794,7 +794,7 @@
         "versionName": "1.2.0"
       },
       {
-        "added": 1680680297000,
+        "added": 1680749706000,
         "apkName": "rockit_v1.1.0.apk",
         "hash": "496971c9fc5d6ebc58478ee10b85f245760a741282eb2d505ed3dd4d00993e9a",
         "hashType": "sha256",
@@ -847,7 +847,7 @@
         "versionName": "1.1.0"
       },
       {
-        "added": 1680680296000,
+        "added": 1680749705000,
         "apkName": "rockit_v1.0.0.apk",
         "hash": "35debc9d1ac17f9c8f41cf6ae6297ca9db26a1e7c4a2e7c668cd0d7d24d3f589",
         "hashType": "sha256",
@@ -900,7 +900,7 @@
         "versionName": "1.0.0"
       },
       {
-        "added": 1680680295000,
+        "added": 1680749704000,
         "apkName": "rockit_v0.8.0.apk",
         "hash": "ce683294036f352af0d6140ec51ced4354fa1478439a7233cd6b45764c9cccbe",
         "hashType": "sha256",
@@ -953,7 +953,7 @@
         "versionName": "0.8.0"
       },
       {
-        "added": 1680680294000,
+        "added": 1680749703000,
         "apkName": "rockit_v0.7.1.apk",
         "hash": "6f724f9687164a595c72659224ff3960bc02a4923087cf1dfd20a2e6d6556cc0",
         "hashType": "sha256",
@@ -1006,7 +1006,7 @@
         "versionName": "0.7.1"
       },
       {
-        "added": 1680680293000,
+        "added": 1680749702000,
         "apkName": "rockit_v0.6.0.apk",
         "hash": "a42e3d5b92b16e3e5fccd7f8ff138d540c077670185d4332225c1a14d1188dbd",
         "hashType": "sha256",
@@ -1059,7 +1059,7 @@
         "versionName": "0.6.0"
       },
       {
-        "added": 1680680292000,
+        "added": 1680749701000,
         "apkName": "rockit_v0.5.0.apk",
         "hash": "98993a98a0d33c7bfc6fcf3591fe429b3e1defb04e76818f0aeb1b9924d986cf",
         "hashType": "sha256",
@@ -1112,7 +1112,7 @@
         "versionName": "0.5.0"
       },
       {
-        "added": 1680680291000,
+        "added": 1680749700000,
         "apkName": "rockit_v0.4.0.apk",
         "hash": "8db540af4776df573bace68f584c11286377e6cf9c78db059b240661408db8f4",
         "hashType": "sha256",
@@ -1137,7 +1137,7 @@
         "versionName": "0.4.0"
       },
       {
-        "added": 1680680290000,
+        "added": 1680749699000,
         "apkName": "rockit_v0.3.0.apk",
         "hash": "adcbb0bc0f8baf30610a8880f0e7f35d0604b11f4e1c70581bdd12528db2283b",
         "hashType": "sha256",
@@ -1162,7 +1162,7 @@
         "versionName": "0.3.0"
       },
       {
-        "added": 1680680289000,
+        "added": 1680749698000,
         "apkName": "rockit_v0.2.1.apk",
         "hash": "6c689e2f8565005a38edba5a34418ff3a3f1189743c2a378b4adb20352cda805",
         "hashType": "sha256",
@@ -1187,7 +1187,7 @@
         "versionName": "0.2.1"
       },
       {
-        "added": 1680680288000,
+        "added": 1680749697000,
         "apkName": "rockit_v0.2.0.apk",
         "hash": "adc95cfd4983231083e8118b2bc9149712f7f9c844281426b1108c0575112adf",
         "hashType": "sha256",
@@ -1212,7 +1212,7 @@
         "versionName": "0.2.0"
       },
       {
-        "added": 1680680287000,
+        "added": 1680749696000,
         "apkName": "rockit_v0.1.0.apk",
         "hash": "7022ad0d02e05da6915b6ab51a81b9c82118ce6862b9b90f6dadbe152ff13c6b",
         "hashType": "sha256",
@@ -1237,7 +1237,7 @@
         "versionName": "0.1.0"
       },
       {
-        "added": 1680680286000,
+        "added": 1680749695000,
         "apkName": "rockit_v0.0.1.apk",
         "hash": "97bf39c135daa186c0d38465d2d2ac1174d2da3fcbbf41e592024315cf55c19a",
         "hashType": "sha256",
