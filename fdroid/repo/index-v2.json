@@ -14,16 +14,16 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1680836128000
+    "timestamp": 1720517136000
   },
   "packages": {
     "io.github.xarantolus.notality": {
       "metadata": {
-        "added": 1680836080000,
+        "added": 1720517104000,
         "categories": [
           "Writing"
         ],
-        "lastUpdated": 1680836092000,
+        "lastUpdated": 1720517112000,
         "license": "MIT",
         "sourceCode": "https://github.com/xarantolus/notality",
         "screenshots": {
@@ -73,7 +73,7 @@
       },
       "versions": {
         "a2c14612ca0cac122e2a1c71f9bd3e36bf42dc774dfdb6386cea77238e3c0010": {
-          "added": 1680836092000,
+          "added": 1720517112000,
           "file": {
             "name": "/notality_v1.8.1.apk",
             "sha256": "a2c14612ca0cac122e2a1c71f9bd3e36bf42dc774dfdb6386cea77238e3c0010",
@@ -99,7 +99,7 @@
           }
         },
         "9da33a99e9a8041044b060935907985bd644558e6c93efad9721840971f811e2": {
-          "added": 1680836091000,
+          "added": 1720517111000,
           "file": {
             "name": "/notality_v1.8.0.apk",
             "sha256": "9da33a99e9a8041044b060935907985bd644558e6c93efad9721840971f811e2",
@@ -125,7 +125,7 @@
           }
         },
         "7b48074dc5cda19179af23ec76b04aee217ef2be1df3cd96f2cf919f0a506c6b": {
-          "added": 1680836090000,
+          "added": 1720517111000,
           "file": {
             "name": "/notality_v1.7.0.apk",
             "sha256": "7b48074dc5cda19179af23ec76b04aee217ef2be1df3cd96f2cf919f0a506c6b",
@@ -151,7 +151,7 @@
           }
         },
         "4086ed6b256f3e25ca40e70a633c720e06d630a617b19741662b0e59b8fe6148": {
-          "added": 1680836090000,
+          "added": 1720517110000,
           "file": {
             "name": "/notality_v1.6.1.apk",
             "sha256": "4086ed6b256f3e25ca40e70a633c720e06d630a617b19741662b0e59b8fe6148",
@@ -177,7 +177,7 @@
           }
         },
         "40737ccc9f77f76ea8bee95b732be62bbc8de9092d9b7dd2d3fb5073c4b4f102": {
-          "added": 1680836089000,
+          "added": 1720517109000,
           "file": {
             "name": "/notality_v1.6.0.apk",
             "sha256": "40737ccc9f77f76ea8bee95b732be62bbc8de9092d9b7dd2d3fb5073c4b4f102",
@@ -203,7 +203,7 @@
           }
         },
         "38a43c4dd82a90597592514c456319857a76028f3a8d7b9fe30af766a87980c8": {
-          "added": 1680836088000,
+          "added": 1720517109000,
           "file": {
             "name": "/notality_v1.5.0.apk",
             "sha256": "38a43c4dd82a90597592514c456319857a76028f3a8d7b9fe30af766a87980c8",
@@ -229,7 +229,7 @@
           }
         },
         "321ef6a518804dd8d895f1b75d8ac97bd14367f75eeb2bd7cc5389fbfa425422": {
-          "added": 1680836087000,
+          "added": 1720517108000,
           "file": {
             "name": "/notality_v1.4.3.apk",
             "sha256": "321ef6a518804dd8d895f1b75d8ac97bd14367f75eeb2bd7cc5389fbfa425422",
@@ -255,7 +255,7 @@
           }
         },
         "408a950aea0dd357a74480cf7599467e5e408bbb4fee39872d37e2ebe1eee159": {
-          "added": 1680836086000,
+          "added": 1720517108000,
           "file": {
             "name": "/notality_v1.4.2.apk",
             "sha256": "408a950aea0dd357a74480cf7599467e5e408bbb4fee39872d37e2ebe1eee159",
@@ -281,7 +281,7 @@
           }
         },
         "30cc88d156bd04285f926d6ebd0a7db1212ff6c0f580c6aa283302c4203a4934": {
-          "added": 1680836085000,
+          "added": 1720517107000,
           "file": {
             "name": "/notality_v1.4.1.apk",
             "sha256": "30cc88d156bd04285f926d6ebd0a7db1212ff6c0f580c6aa283302c4203a4934",
@@ -307,7 +307,7 @@
           }
         },
         "ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b": {
-          "added": 1680836080000,
+          "added": 1720517104000,
           "file": {
             "name": "/notality_v1.0.0.apk",
             "sha256": "ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b",
@@ -333,7 +333,7 @@
           }
         },
         "d8870de8cb06bec2a97741a16cf2b1c3ddfd6ad12a94cb08076be25ae1c9312f": {
-          "added": 1680836081000,
+          "added": 1720517104000,
           "file": {
             "name": "/notality_v1.0.1.apk",
             "sha256": "d8870de8cb06bec2a97741a16cf2b1c3ddfd6ad12a94cb08076be25ae1c9312f",
@@ -359,7 +359,7 @@
           }
         },
         "0fea0e3520d0c78b5bdfe58a7126ef08fe35946599708457f34df37245e777b5": {
-          "added": 1680836082000,
+          "added": 1720517105000,
           "file": {
             "name": "/notality_v1.1.0.apk",
             "sha256": "0fea0e3520d0c78b5bdfe58a7126ef08fe35946599708457f34df37245e777b5",
@@ -385,7 +385,7 @@
           }
         },
         "ba61ec170c9877ff4ce1f3f7cb15f9fb418f82f57c4d3c01553489756a2115c6": {
-          "added": 1680836083000,
+          "added": 1720517105000,
           "file": {
             "name": "/notality_v1.2.0.apk",
             "sha256": "ba61ec170c9877ff4ce1f3f7cb15f9fb418f82f57c4d3c01553489756a2115c6",
@@ -411,7 +411,7 @@
           }
         },
         "c443456385cfe89ce3423ed78e73e1fe08bf22d4c76370ef8c5ae62de54a3871": {
-          "added": 1680836083000,
+          "added": 1720517106000,
           "file": {
             "name": "/notality_v1.3.0.apk",
             "sha256": "c443456385cfe89ce3423ed78e73e1fe08bf22d4c76370ef8c5ae62de54a3871",
@@ -437,7 +437,7 @@
           }
         },
         "e90c0e9372176c33c8a9dcf626fad718d2cd31ddda7f8ae9505c49b77e5a9d4d": {
-          "added": 1680836084000,
+          "added": 1720517106000,
           "file": {
             "name": "/notality_v1.4.0.apk",
             "sha256": "e90c0e9372176c33c8a9dcf626fad718d2cd31ddda7f8ae9505c49b77e5a9d4d",
@@ -466,12 +466,12 @@
     },
     "io.github.xarantolus.rockit": {
       "metadata": {
-        "added": 1680836093000,
+        "added": 1720517112000,
         "categories": [
           "Internet",
           "Science & Education"
         ],
-        "lastUpdated": 1680836111000,
+        "lastUpdated": 1720517123000,
         "license": "MIT",
         "sourceCode": "https://github.com/xarantolus/rockit",
         "screenshots": {
@@ -554,7 +554,7 @@
       },
       "versions": {
         "3e4398a041e11ccc0fe3d1684a36675a821705c6be0c10b56220ba19f44b7acb": {
-          "added": 1680836111000,
+          "added": 1720517123000,
           "file": {
             "name": "/rockit_v1.5.0.apk",
             "sha256": "3e4398a041e11ccc0fe3d1684a36675a821705c6be0c10b56220ba19f44b7acb",
@@ -609,7 +609,7 @@
           }
         },
         "33867c58a05b19fb07074095e9c4fd59a066f37ec13c8f9648a12aa0edf03aba": {
-          "added": 1680836110000,
+          "added": 1720517123000,
           "file": {
             "name": "/rockit_v1.4.0.apk",
             "sha256": "33867c58a05b19fb07074095e9c4fd59a066f37ec13c8f9648a12aa0edf03aba",
@@ -664,7 +664,7 @@
           }
         },
         "4ac68bb79a0eb2739a263166d40ac5c612a82e61eb180d07813e43dce778678a": {
-          "added": 1680836109000,
+          "added": 1720517122000,
           "file": {
             "name": "/rockit_v1.3.4.apk",
             "sha256": "4ac68bb79a0eb2739a263166d40ac5c612a82e61eb180d07813e43dce778678a",
@@ -719,7 +719,7 @@
           }
         },
         "871e49d2362b02ae6dbca7a66770ceece1e10568a94d0f730a656b9ecb040892": {
-          "added": 1680836108000,
+          "added": 1720517121000,
           "file": {
             "name": "/rockit_v1.3.3.apk",
             "sha256": "871e49d2362b02ae6dbca7a66770ceece1e10568a94d0f730a656b9ecb040892",
@@ -774,7 +774,7 @@
           }
         },
         "ebc0050a4bd19212b462537c91087329024ecd0fe56a0b8b78086ea6e71119e9": {
-          "added": 1680836107000,
+          "added": 1720517121000,
           "file": {
             "name": "/rockit_v1.3.2.apk",
             "sha256": "ebc0050a4bd19212b462537c91087329024ecd0fe56a0b8b78086ea6e71119e9",
@@ -829,7 +829,7 @@
           }
         },
         "edc66ead58e6af93f2d498506f1a6f52c33e442773e64c220925b02d4ad13b00": {
-          "added": 1680836106000,
+          "added": 1720517120000,
           "file": {
             "name": "/rockit_v1.3.1.apk",
             "sha256": "edc66ead58e6af93f2d498506f1a6f52c33e442773e64c220925b02d4ad13b00",
@@ -884,7 +884,7 @@
           }
         },
         "f0786af8d11787f1620ba535e7c5d961ce2c0f5f199af177b3027ce57a1692ea": {
-          "added": 1680836105000,
+          "added": 1720517120000,
           "file": {
             "name": "/rockit_v1.3.0.apk",
             "sha256": "f0786af8d11787f1620ba535e7c5d961ce2c0f5f199af177b3027ce57a1692ea",
@@ -939,7 +939,7 @@
           }
         },
         "ba0e48c913a138e8b99fe46aa2b8b39833d078c94e8d76b70e734926578205b3": {
-          "added": 1680836104000,
+          "added": 1720517119000,
           "file": {
             "name": "/rockit_v1.2.0.apk",
             "sha256": "ba0e48c913a138e8b99fe46aa2b8b39833d078c94e8d76b70e734926578205b3",
@@ -994,7 +994,7 @@
           }
         },
         "496971c9fc5d6ebc58478ee10b85f245760a741282eb2d505ed3dd4d00993e9a": {
-          "added": 1680836103000,
+          "added": 1720517119000,
           "file": {
             "name": "/rockit_v1.1.0.apk",
             "sha256": "496971c9fc5d6ebc58478ee10b85f245760a741282eb2d505ed3dd4d00993e9a",
@@ -1049,7 +1049,7 @@
           }
         },
         "35debc9d1ac17f9c8f41cf6ae6297ca9db26a1e7c4a2e7c668cd0d7d24d3f589": {
-          "added": 1680836102000,
+          "added": 1720517118000,
           "file": {
             "name": "/rockit_v1.0.0.apk",
             "sha256": "35debc9d1ac17f9c8f41cf6ae6297ca9db26a1e7c4a2e7c668cd0d7d24d3f589",
@@ -1104,7 +1104,7 @@
           }
         },
         "ce683294036f352af0d6140ec51ced4354fa1478439a7233cd6b45764c9cccbe": {
-          "added": 1680836101000,
+          "added": 1720517117000,
           "file": {
             "name": "/rockit_v0.8.0.apk",
             "sha256": "ce683294036f352af0d6140ec51ced4354fa1478439a7233cd6b45764c9cccbe",
@@ -1159,7 +1159,7 @@
           }
         },
         "6f724f9687164a595c72659224ff3960bc02a4923087cf1dfd20a2e6d6556cc0": {
-          "added": 1680836100000,
+          "added": 1720517117000,
           "file": {
             "name": "/rockit_v0.7.1.apk",
             "sha256": "6f724f9687164a595c72659224ff3960bc02a4923087cf1dfd20a2e6d6556cc0",
@@ -1214,7 +1214,7 @@
           }
         },
         "a42e3d5b92b16e3e5fccd7f8ff138d540c077670185d4332225c1a14d1188dbd": {
-          "added": 1680836099000,
+          "added": 1720517116000,
           "file": {
             "name": "/rockit_v0.6.0.apk",
             "sha256": "a42e3d5b92b16e3e5fccd7f8ff138d540c077670185d4332225c1a14d1188dbd",
@@ -1269,7 +1269,7 @@
           }
         },
         "98993a98a0d33c7bfc6fcf3591fe429b3e1defb04e76818f0aeb1b9924d986cf": {
-          "added": 1680836098000,
+          "added": 1720517116000,
           "file": {
             "name": "/rockit_v0.5.0.apk",
             "sha256": "98993a98a0d33c7bfc6fcf3591fe429b3e1defb04e76818f0aeb1b9924d986cf",
@@ -1324,7 +1324,7 @@
           }
         },
         "8db540af4776df573bace68f584c11286377e6cf9c78db059b240661408db8f4": {
-          "added": 1680836097000,
+          "added": 1720517115000,
           "file": {
             "name": "/rockit_v0.4.0.apk",
             "sha256": "8db540af4776df573bace68f584c11286377e6cf9c78db059b240661408db8f4",
@@ -1358,7 +1358,7 @@
           }
         },
         "adcbb0bc0f8baf30610a8880f0e7f35d0604b11f4e1c70581bdd12528db2283b": {
-          "added": 1680836097000,
+          "added": 1720517114000,
           "file": {
             "name": "/rockit_v0.3.0.apk",
             "sha256": "adcbb0bc0f8baf30610a8880f0e7f35d0604b11f4e1c70581bdd12528db2283b",
@@ -1392,7 +1392,7 @@
           }
         },
         "6c689e2f8565005a38edba5a34418ff3a3f1189743c2a378b4adb20352cda805": {
-          "added": 1680836096000,
+          "added": 1720517114000,
           "file": {
             "name": "/rockit_v0.2.1.apk",
             "sha256": "6c689e2f8565005a38edba5a34418ff3a3f1189743c2a378b4adb20352cda805",
@@ -1426,7 +1426,7 @@
           }
         },
         "adc95cfd4983231083e8118b2bc9149712f7f9c844281426b1108c0575112adf": {
-          "added": 1680836095000,
+          "added": 1720517113000,
           "file": {
             "name": "/rockit_v0.2.0.apk",
             "sha256": "adc95cfd4983231083e8118b2bc9149712f7f9c844281426b1108c0575112adf",
@@ -1460,7 +1460,7 @@
           }
         },
         "7022ad0d02e05da6915b6ab51a81b9c82118ce6862b9b90f6dadbe152ff13c6b": {
-          "added": 1680836094000,
+          "added": 1720517113000,
           "file": {
             "name": "/rockit_v0.1.0.apk",
             "sha256": "7022ad0d02e05da6915b6ab51a81b9c82118ce6862b9b90f6dadbe152ff13c6b",
@@ -1494,7 +1494,7 @@
           }
         },
         "97bf39c135daa186c0d38465d2d2ac1174d2da3fcbbf41e592024315cf55c19a": {
-          "added": 1680836093000,
+          "added": 1720517112000,
           "file": {
             "name": "/rockit_v0.0.1.apk",
             "sha256": "97bf39c135daa186c0d38465d2d2ac1174d2da3fcbbf41e592024315cf55c19a",
