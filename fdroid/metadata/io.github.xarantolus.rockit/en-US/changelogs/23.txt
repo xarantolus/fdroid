@@ -1,0 +1,4 @@
+Changes:
+* Make sure background handler works again on newer Android versions
+* Update Java Version
+* Misc fixes for newer Android versions, design
