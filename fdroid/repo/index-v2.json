@@ -14,9 +14,57 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1725937427000
+    "timestamp": 1742156191000,
+    "categories": {
+      "Internet": {
+        "name": {
+          "en-US": "Internet"
+        }
+      },
+      "Science & Education": {
+        "name": {
+          "en-US": "Science & Education"
+        }
+      },
+      "Writing": {
+        "name": {
+          "en-US": "Writing"
+        }
+      },
+      "fdroid": {
+        "name": {
+          "en-US": "fdroid"
+        }
+      }
+    }
   },
   "packages": {
+    "4ab470c1c499d1e9411cfa330ff6fabab9f04e4ac35b93a331af3d398871dd87": {
+      "metadata": {
+        "added": 1742156180000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1742156180000,
+        "name": {
+          "en-US": "categories"
+        }
+      },
+      "versions": {
+        "4ab470c1c499d1e9411cfa330ff6fabab9f04e4ac35b93a331af3d398871dd87": {
+          "added": 1742156180000,
+          "file": {
+            "name": "/categories.txt",
+            "sha256": "4ab470c1c499d1e9411cfa330ff6fabab9f04e4ac35b93a331af3d398871dd87",
+            "size": 37
+          },
+          "manifest": {
+            "versionName": "4ab470c",
+            "versionCode": 0
+          }
+        }
+      }
+    },
     "io.github.xarantolus.notality": {
       "metadata": {
         "added": 1725937396000,
@@ -31,23 +79,23 @@
             "en-US": [
               {
                 "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/1.png",
-                "sha256": "d1e92913a2d88c012ff2694514e960d67f833a5fd562cf82d64a394a29cbe507",
-                "size": 66153
+                "sha256": "52a423e0ca901b2a55975e96f49a950d113dcaf3e2b9ab5b9cd7327ed5b40769",
+                "size": 65822
               },
               {
                 "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/2.png",
-                "sha256": "aefa26d5bf6bd5af80623dbd2805e969d511ef608032596724d77ca0f947151c",
-                "size": 110055
+                "sha256": "c256538cfef846f7b32cfef746cf9aa15c06badcd52ccb57ea56e78e558f5686",
+                "size": 109724
               },
               {
                 "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/3.png",
-                "sha256": "28b7a5e9b9e4cda0672b8d07868f03c9b52854efbab5131ff8139c954cc4071d",
-                "size": 66306
+                "sha256": "35e5c85b52c43e7a4bf4632b649636c2bafa2bb5896c7fabfb8a3276955bc19c",
+                "size": 65975
               },
               {
                 "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/4.png",
-                "sha256": "34e501ab05f7681bc21f91181603c4be8e9c13c234ed885d46497addde81bffa",
-                "size": 111197
+                "sha256": "c4126cd8d8f758127df962db7b6688789a043bd208dc3e94f38a780ddddc0418",
+                "size": 110866
               }
             ]
           }

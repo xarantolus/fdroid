@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1725937427000,
+    "timestamp": 1742156191000,
     "version": 20002,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -12,6 +12,17 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "categories": [
+        "fdroid"
+      ],
+      "suggestedVersionCode": "2147483647",
+      "license": "Unknown",
+      "name": "categories",
+      "added": 1742156180000,
+      "packageName": "4ab470c1c499d1e9411cfa330ff6fabab9f04e4ac35b93a331af3d398871dd87",
+      "lastUpdated": 1742156180000
+    },
     {
       "authorName": "xarantolus",
       "categories": [
@@ -81,6 +92,17 @@
     }
   ],
   "packages": {
+    "4ab470c1c499d1e9411cfa330ff6fabab9f04e4ac35b93a331af3d398871dd87": [
+      {
+        "added": 1742156180000,
+        "apkName": "categories.txt",
+        "hash": "4ab470c1c499d1e9411cfa330ff6fabab9f04e4ac35b93a331af3d398871dd87",
+        "hashType": "sha256",
+        "packageName": "4ab470c1c499d1e9411cfa330ff6fabab9f04e4ac35b93a331af3d398871dd87",
+        "size": 37,
+        "versionName": "4ab470c"
+      }
+    ],
     "io.github.xarantolus.notality": [
       {
         "added": 1725937404000,
