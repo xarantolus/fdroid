@@ -102,6 +102,10 @@ func main() {
 
 		log.Printf("Received %d releases", len(releases))
 
+		if len(releases) > 3 {
+                    releases = releases[:3]
+                }
+		
 		for _, release := range releases {
 			fmt.Printf("::group::Release %s\n", release.GetTagName())
 			func() {
