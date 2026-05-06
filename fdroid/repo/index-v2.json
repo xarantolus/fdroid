@@ -14,9 +14,57 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1777953486000
+    "timestamp": 1778040357000,
+    "categories": {
+      "Internet": {
+        "name": {
+          "en-US": "Internet"
+        }
+      },
+      "Science & Education": {
+        "name": {
+          "en-US": "Science & Education"
+        }
+      },
+      "Writing": {
+        "name": {
+          "en-US": "Writing"
+        }
+      },
+      "fdroid": {
+        "name": {
+          "en-US": "fdroid"
+        }
+      }
+    }
   },
   "packages": {
+    "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220": {
+      "metadata": {
+        "added": 1778040345000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1778040345000,
+        "name": {
+          "en-US": "categories"
+        }
+      },
+      "versions": {
+        "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220": {
+          "added": 1778040345000,
+          "file": {
+            "name": "/categories.txt",
+            "sha256": "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220",
+            "size": 44
+          },
+          "manifest": {
+            "versionName": "b727643",
+            "versionCode": 0
+          }
+        }
+      }
+    },
     "io.github.xarantolus.notality": {
       "metadata": {
         "added": 1777953455000,
