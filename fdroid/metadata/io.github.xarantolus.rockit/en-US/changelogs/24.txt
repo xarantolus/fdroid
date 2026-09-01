@@ -1,0 +1,12 @@
+Changes:
+
+* **New home-screen widget**: the next launches and your subscribed events, at a glance
+* **Follow keywords**: add "Starship" or "Falcon" and you are subscribed to matching launches automatically, as they are announced.
+* **Works offline, and opens instantly.** Everything you have seen before is shown straight away and refreshed in the background, instead of waiting on the network.
+* **Redesigned launch and event pages** 
+* **A rebuilt news feed** with compact cards, and a proper news search that keeps your place when you come back from an article.
+* **Launch times now say how precisely they are known**
+* **Better notifications**: you are told when a launch time actually changes
+* **A new floating bottom bar**
+* **Less storage usage** .
+* **Proper layouts on tablets, in landscape and at large font sizes**

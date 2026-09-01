@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1788249751000,
+    "timestamp": 1788288051000,
     "version": 20002,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -12,17 +12,6 @@
     "uninstall": []
   },
   "apps": [
-    {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "categories",
-      "added": 1778040345000,
-      "packageName": "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220",
-      "lastUpdated": 1778040345000
-    },
     {
       "authorName": "xarantolus",
       "categories": [
@@ -60,8 +49,8 @@
         "Internet",
         "Science & Education"
       ],
-      "suggestedVersionName": "1.6.0",
-      "suggestedVersionCode": "23",
+      "suggestedVersionName": "1.7.0",
+      "suggestedVersionCode": "24",
       "description": "Rock It! helps you stay informed on all things space.\nIt displays upcoming rocket launches and current space news curated by <a href=\"https://thespacedevs.com/\">The Space Devs</a>.\n\n<b>Features</b>\n\n- List upcoming launches and events (e.g. space station activity)\n- Show launch/event details and a countdown (including the date and time in your local timezone)\n- List latest space news articles\n- Subscribe to launches or events to receive notifications before the start or when times are updated\n- Search future events and launches\n- No internet? No problem! The app caches offline content for a few days and updates it when connected to the internet\n\nThe app connects to the Launch Library and Spaceflight News API to get information about launches.\nAdditionality, it might connect to other hosts (e.g. YouTube) to receive video and article thumbnails.\nSince none of these services are free software, it's labeled with \"NonFreeNet\".\n",
       "license": "MIT",
       "name": "Rock It!",
@@ -69,9 +58,10 @@
       "summary": "Rock It! is an Android app that helps you stay informed on all things space",
       "added": 1777953463000,
       "packageName": "io.github.xarantolus.rockit",
-      "lastUpdated": 1777953474000,
+      "lastUpdated": 1788288037000,
       "localized": {
         "en-US": {
+          "icon": "icon_OWiNCX3blbejcMlFEOTgHrKN32Q7UElOeEtytHBEPbo=.png",
           "phoneScreenshots": [
             "1.jpg",
             "10.jpg",
@@ -86,23 +76,12 @@
             "8.jpg",
             "9.jpg"
           ],
-          "whatsNew": "Changes:\n* Make sure background handler works again on newer Android versions\n* Update Java Version\n* Misc fixes for newer Android versions, design\n"
+          "whatsNew": "Changes:\n\n* **New home-screen widget**: the next launches and your subscribed events, at a glance\n* **Follow keywords**: add \"Starship\" or \"Falcon\" and you are subscribed to matching launches automatically, as they are announced.\n* **Works offline, and opens instantly.** Everything you have seen before is shown straight away and refreshed in the background, instead of waiting on the network.\n* **Redesigned launch and event pages** \n* **A rebuilt news feed** with compact cards, and a proper news "
         }
       }
     }
   ],
   "packages": {
-    "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220": [
-      {
-        "added": 1778040345000,
-        "apkName": "categories.txt",
-        "hash": "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220",
-        "hashType": "sha256",
-        "packageName": "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220",
-        "size": 44,
-        "versionName": "b727643"
-      }
-    ],
     "io.github.xarantolus.notality": [
       {
         "added": 1777953462000,
@@ -391,6 +370,67 @@
       }
     ],
     "io.github.xarantolus.rockit": [
+      {
+        "added": 1788288037000,
+        "apkName": "rockit_v1.7.0.apk",
+        "hash": "4c4ca96bee62d9af3d222214238689e717d8cb3962937b6d819574cd291f9ad6",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.rockit",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 71197062,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "io.github.xarantolus.rockit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 24,
+        "versionName": "1.7.0"
+      },
       {
         "added": 1777953474000,
         "apkName": "rockit_v1.6.0.apk",

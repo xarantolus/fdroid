@@ -1,0 +1,89 @@
+{
+  "repo": {
+    "timestamp": 1788288051000
+  },
+  "packages": {
+    "io.github.xarantolus.rockit": {
+      "metadata": {
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/1.jpg",
+                "sha256": "ac1e6a6a2bc78c0e7c7fd829f91263b3efd14f8a4bb4b67f4efebb42c71b590d",
+                "size": 195937
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/10.jpg",
+                "sha256": "5d5b83350dbec9065139a1e56b7449de825f6d1ece22fdc07ad528ad1d89add0",
+                "size": 196759
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/11.jpg",
+                "sha256": "2c06c8b604020cf111181c8f089a9ef5ce6a041b8e0dd6e65489be64471f6979",
+                "size": 269672
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/12.jpg",
+                "sha256": "596bea2df511fafa5ec0f6f44e2bddaedf48c6ec785c8bf9a1bc63b3c28e4405",
+                "size": 163738
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/2.jpg",
+                "sha256": "7b7808778c916e6c0ad87c2e251208ad925343831da3a2643ecf22c60491d24e",
+                "size": 290064
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/3.jpg",
+                "sha256": "dfd784aa7ca6f3ca7465fe20152ec2e02c77c4ae8b2b078875f706e8931bc3cf",
+                "size": 223588
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/4.jpg",
+                "sha256": "167b8a92b4cb9ccb08d0bf09f96490debfc985f5f11ca372396b3ae3ad775581",
+                "size": 186176
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/5.jpg",
+                "sha256": "dd87600bc6b7f366a6fc95684084bcc57ce4e6c69b5efe0f29bc2b376e361b27",
+                "size": 241544
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/6.jpg",
+                "sha256": "a7c912fc0071e0851dc5adf7780b6685f8a5441b833a80c71b51807b21547fa2",
+                "size": 156148
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/7.jpg",
+                "sha256": "2e4acde5985fe735ed99f25eff071959e83d8dd6f3d4482962561c2c5a6e5c3f",
+                "size": 214360
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/8.jpg",
+                "sha256": "9feb979906aa775385fc646583cafdee9ef91b971c22b5212924608081681c1e",
+                "size": 301599
+              },
+              {
+                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/9.jpg",
+                "sha256": "f83b2eeaeda4015305ab7492f347155bc114de6458c2982954bb821b29460d0b",
+                "size": 238426
+              }
+            ]
+          }
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.xarantolus.rockit/en-US/icon_OWiNCX3blbejcMlFEOTgHrKN32Q7UElOeEtytHBEPbo=.png",
+            "sha256": "39688d097ddb95b7a370c94510e4e01eb28ddf643b50494e784b72b470443dba",
+            "size": 42619
+          }
+        }
+      },
+      "versions": {
+        "4c4ca96bee62d9af3d222214238689e717d8cb3962937b6d819574cd291f9ad6": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
