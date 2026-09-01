@@ -23,6 +23,11 @@ type AppInfo struct {
 
 	Categories []string `yaml:"categories"`
 
+	// IconPath is a PNG path inside the app's git repository, used when the
+	// APK itself carries no extractable icon (an adaptive icon is XML, so
+	// fdroid finds no raster to use).
+	IconPath string `yaml:"icon"`
+
 	AntiFeatures []string `yaml:"anti_features"`
 
 	ReleaseDescription string

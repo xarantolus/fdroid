@@ -6,24 +6,45 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/google/go-github/v39/github"
+	"github.com/google/go-github/v90/github"
 	"golang.org/x/text/runes"
 	"golang.org/x/text/transform"
 	"golang.org/x/text/unicode/norm"
 )
 
-func FindAPKRelease(release *github.RepositoryRelease) *github.ReleaseAsset {
+// FindAPKRelease picks the single APK to publish for a release, or nil if it
+// has none. Only one APK per release is supported: they are stored as
+// <app>_<tag>.apk, so several would overwrite each other. A release carrying
+// per-ABI splits is therefore ambiguous unless one of them is the universal
+// APK, and is reported rather than resolved by guessing.
+func FindAPKRelease(release *github.RepositoryRelease) (*github.ReleaseAsset, error) {
+	var candidates []*github.ReleaseAsset
 	for _, asset := range release.Assets {
-		if asset.State == nil || *asset.State != "uploaded" {
-			continue
-		}
-
-		if asset.Name != nil && strings.HasSuffix(*asset.Name, ".apk") {
-			return asset
+		if asset.GetState() == "uploaded" && strings.HasSuffix(asset.GetName(), ".apk") {
+			candidates = append(candidates, asset)
 		}
 	}
 
-	return nil
+	switch len(candidates) {
+	case 0:
+		return nil, nil
+	case 1:
+		return candidates[0], nil
+	}
+
+	for _, asset := range candidates {
+		if strings.Contains(strings.ToLower(asset.GetName()), "universal") {
+			return asset, nil
+		}
+	}
+
+	names := make([]string, 0, len(candidates))
+	for _, asset := range candidates {
+		names = append(names, asset.GetName())
+	}
+
+	return nil, fmt.Errorf("release %q has %d APK assets and none is universal: %s",
+		release.GetTagName(), len(candidates), strings.Join(names, ", "))
 }
 
 func GenerateReleaseFilename(appName string, tagName string) string {

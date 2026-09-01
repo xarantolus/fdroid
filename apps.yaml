@@ -20,6 +20,9 @@ notality:
 rockit:
   git: https://github.com/xarantolus/rockit
   name: "Rock It!"
+  # The APK's launcher icon is an adaptive icon (XML), so fdroid finds no
+  # raster to extract; this one is used instead.
+  icon: assets/icon/Icon.png
   description: |
     Rock It! helps you stay informed on all things space.
     It displays upcoming rocket launches and current space news curated by <a href="https://thespacedevs.com/">The Space Devs</a>.

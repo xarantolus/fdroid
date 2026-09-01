@@ -15,11 +15,14 @@ When building/releasing a new version of your app, you need to make sure that yo
 
 2. Now you can [install the F-Droid server tools](https://f-droid.org/en/docs/Installing_the_Server_and_Repo_Tools/) by running the following:
 
-        sudo add-apt-repository ppa:fdroid/fdroidserver
-        sudo apt-get update
-        sudo apt-get install fdroidserver
+        sudo apt-get install -y apksigner pipx
+        pipx install fdroidserver
 
-    Make sure that you install version `2.x` of the `fdroidserver` package. In the previous step we added the repository because the `fdroidserver` package I found at first (in the default repo) was outdated; so just make sure it's version 2 (you can also check with `apt-get -s install fdroidserver`).
+    Install from PyPI rather than from a distribution package: distributions
+    satisfy fdroidserver's `androguard >= 3.3.5` with androguard 3.x, whose
+    parser rejects the `resources.arsc` that current Android build tools
+    produce, and `fdroid update` then dies with `ResParserError: res1 must be
+    zero!`. The CI workflow installs it the same way.
 
     We only need these tools once to set up the repository. After these steps you can delete them, as now GitHub Actions will manage everything.
 
@@ -95,6 +98,11 @@ Metadata can be added in two places: the `apps.yaml` file and the app repositori
 **Categories**: A list of categories, preferably one of the [categories already listed in the official repo](https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories)
 
 #### Metadata from the repository
+**Icon**: taken from the APK. An adaptive launcher icon is XML, so there is no
+raster image to extract and the app shows up without one; set `icon:` in
+`apps.yaml` to a PNG path inside the app's git repository to supply it
+yourself.
+
 **Screenshots**: This tool will make any file from the git repository for which the path contains `screenshot` available as screenshot. Basically, if you run `find .  -type f | grep -i screenshot` in your app repo you should find all files that will be used.
 
 **Changelog**: To display a "what's new" changelog in F-Droid, you just need to fill out the body/text of the GitHub release.

@@ -12,11 +12,12 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"slices"
 	"strings"
 	"time"
+	"unicode/utf8"
 
-	"github.com/google/go-github/v39/github"
-	"golang.org/x/oauth2"
+	"github.com/google/go-github/v90/github"
 	"metascoop/apps"
 	"metascoop/file"
 	"metascoop/git"
@@ -40,15 +41,15 @@ func main() {
 		log.Fatalf("parsing given app file: %s\n", err.Error())
 	}
 
-	var authenticatedClient *http.Client = nil
+	var clientOpts []github.ClientOptionsFunc
 	if *accessToken != "" {
-		ctx := context.Background()
-		ts := oauth2.StaticTokenSource(
-			&oauth2.Token{AccessToken: *accessToken},
-		)
-		authenticatedClient = oauth2.NewClient(ctx, ts)
+		clientOpts = append(clientOpts, github.WithAuthToken(*accessToken))
 	}
-	githubClient := github.NewClient(authenticatedClient)
+
+	githubClient, err := github.NewClient(clientOpts...)
+	if err != nil {
+		log.Fatalf("creating github client: %s\n", err.Error())
+	}
 
 	var haveError bool
 
@@ -59,7 +60,7 @@ func main() {
 		log.Fatalf("reading f-droid repo index: %s\n", err.Error())
 	}
 
-	err = os.MkdirAll(*repoDir, 0o644)
+	err = os.MkdirAll(*repoDir, 0o755)
 	if err != nil {
 		log.Fatalf("creating repo directory: %s\n", err.Error())
 	}
@@ -76,7 +77,7 @@ func main() {
 		if err != nil {
 			log.Printf("Error while getting repo info from URL %q: %s", app.GitURL, err.Error())
 			haveError = true
-			return
+			continue
 		}
 
 		log.Printf("Looking up %s/%s on GitHub", repo.Author, repo.Name)
@@ -97,7 +98,7 @@ func main() {
 		if err != nil {
 			log.Printf("Error while listing repo releases for %q: %s\n", app.GitURL, err.Error())
 			haveError = true
-			return
+			continue
 		}
 
 		log.Printf("Received %d releases", len(releases))
@@ -122,7 +123,12 @@ func main() {
 
 				log.Printf("Working on release with tag name %q", release.GetTagName())
 
-				apk := apps.FindAPKRelease(release)
+				apk, err := apps.FindAPKRelease(release)
+				if err != nil {
+					log.Printf("Error while picking an APK: %s", err.Error())
+					haveError = true
+					return
+				}
 				if apk == nil {
 					log.Printf("Couldn't find a release asset with extension \".apk\"")
 					return
@@ -163,7 +169,7 @@ func main() {
 
 				err = downloadStream(appTargetPath, appStream)
 				if err != nil {
-					log.Printf("Error while downloading app %q (artifact id %d) from from release %q to %q: %s", app.GitURL, *apk.ID, *release.TagName, appTargetPath, err.Error())
+					log.Printf("Error while downloading app %q (artifact id %d) from from release %q to %q: %s", app.GitURL, apk.GetID(), release.GetTagName(), appTargetPath, err.Error())
 					haveError = true
 					return
 				}
@@ -175,19 +181,9 @@ func main() {
 
 	if !*debugMode {
 		fmt.Println("::group::F-Droid: Creating metadata stubs")
-		// Now, we run the fdroid update command
-		cmd := exec.Command("fdroid", "update", "--pretty", "--create-metadata", "--delete-unknown")
-		cmd.Stderr = os.Stderr
-		cmd.Stdout = os.Stdout
-		cmd.Stdin = os.Stdin
-		cmd.Dir = filepath.Dir(*repoDir)
 
-		log.Printf("Running %q in %s", cmd.String(), cmd.Dir)
-
-		err = cmd.Run()
-
-		if err != nil {
-			log.Println("Error while running \"fdroid update -c\":", err.Error())
+		if err := runFdroidUpdate(*repoDir, "--create-metadata", "--delete-unknown"); err != nil {
+			log.Println("Error while running fdroid update:", err.Error())
 
 			fmt.Println("::endgroup::")
 			os.Exit(1)
@@ -250,13 +246,14 @@ func main() {
 			setNonEmpty(meta, "License", apkInfo.License)
 			setNonEmpty(meta, "Description", apkInfo.Description)
 
-			var summary = apkInfo.Summary
-			// See https://f-droid.org/en/docs/Build_Metadata_Reference/#Summary for max length
+			// https://f-droid.org/en/docs/Build_Metadata_Reference/#Summary
 			const maxSummaryLength = 80
-			if len(summary) > maxSummaryLength {
-				summary = summary[:maxSummaryLength-3] + "..."
 
-				log.Printf("Truncated summary to length of %d (max length)", len(summary))
+			summary := apkInfo.Summary
+			if utf8.RuneCountInString(summary) > maxSummaryLength {
+				summary = string([]rune(summary)[:maxSummaryLength-3]) + "..."
+
+				log.Printf("Truncated summary to %d characters (max length)", maxSummaryLength)
 			}
 
 			setNonEmpty(meta, "Summary", summary)
@@ -350,6 +347,25 @@ func main() {
 
 			toRemovePaths = append(toRemovePaths, screenshotsPath)
 
+			if apkInfo.IconPath != "" {
+				iconPath := filepath.Join(walkPath, latestPackage.PackageName, "en-US", "icon.png")
+
+				if err := os.MkdirAll(filepath.Dir(iconPath), os.ModePerm); err != nil {
+					log.Printf("Creating directory for icon %q: %s", iconPath, err.Error())
+					return nil
+				}
+
+				if err := file.Move(filepath.Join(gitRepoPath, apkInfo.IconPath), iconPath); err != nil {
+					log.Printf("Moving icon %q to %q: %s", apkInfo.IconPath, iconPath, err.Error())
+					haveError = true
+					return nil
+				}
+
+				log.Printf("Wrote icon to %s", iconPath)
+
+				toRemovePaths = append(toRemovePaths, iconPath)
+			}
+
 			return nil
 		}()
 	})
@@ -362,18 +378,8 @@ func main() {
 	if !*debugMode {
 		fmt.Println("::group::F-Droid: Reading updated metadata")
 
-		// Now, we run the fdroid update command again to regenerate the index with our new metadata
-		cmd := exec.Command("fdroid", "update", "--pretty", "--delete-unknown")
-		cmd.Stderr = os.Stderr
-		cmd.Stdout = os.Stdout
-		cmd.Stdin = os.Stdin
-		cmd.Dir = filepath.Dir(*repoDir)
-
-		log.Printf("Running %q in %s", cmd.String(), cmd.Dir)
-
-		err = cmd.Run()
-		if err != nil {
-			log.Println("Error while running \"fdroid update -c\":", err.Error())
+		if err := runFdroidUpdate(*repoDir, "--delete-unknown"); err != nil {
+			log.Println("Error while running fdroid update:", err.Error())
 
 			fmt.Println("::endgroup::")
 			os.Exit(1)
@@ -411,18 +417,18 @@ func main() {
 	} else {
 		log.Printf("The index files didn't change significantly")
 
-		changedFiles, err := git.GetChangedFileNames(*repoDir)
+		changedFiles, err := git.ChangedFiles(*repoDir)
 		if err != nil {
 			log.Fatalf("getting changed files: %s\n::endgroup::\n", err.Error())
 		}
 
-		// If only the index files changed, we ignore the commit
-		for _, fname := range changedFiles {
-			if !strings.Contains(fname, "index") {
-				haveSignificantChanges = true
-
-				log.Printf("File %q is a significant change", fname)
+		for _, path := range changedFiles {
+			if isGeneratedByFdroid(path) {
+				continue
 			}
+
+			haveSignificantChanges = true
+			log.Printf("File %q is a significant change", path)
 		}
 
 		if !haveSignificantChanges {
@@ -477,4 +483,46 @@ func downloadStream(targetFile string, rc io.ReadCloser) (err error) {
 	}
 
 	return os.Rename(targetTemp, targetFile)
+}
+
+// fdroidGenerated are the files "fdroid update" rewrites on every run, even
+// when nothing about the apps changed: they carry a fresh timestamp and are
+// re-signed each time.
+var fdroidGenerated = []string{
+	"categories.txt",
+	"entry.jar",
+	"entry.json",
+	"index-v1.jar",
+	"index-v1.json",
+	"index-v2.json",
+	"index.jar",
+	"index.png",
+	"index.xml",
+}
+
+func isGeneratedByFdroid(path string) bool {
+	if strings.Contains(filepath.ToSlash(path), "/repo/diff/") {
+		return true
+	}
+
+	return slices.Contains(fdroidGenerated, filepath.Base(path))
+}
+
+// runFdroidUpdate regenerates the repo index. categories.txt is removed first
+// because fdroid writes it into repo/ as output and then indexes it as an app
+// on the following run; this same command recreates it.
+func runFdroidUpdate(repoDir string, args ...string) error {
+	if err := os.Remove(filepath.Join(repoDir, "categories.txt")); err != nil && !errors.Is(err, os.ErrNotExist) {
+		return fmt.Errorf("removing categories.txt: %w", err)
+	}
+
+	cmd := exec.Command("fdroid", append([]string{"update", "--pretty"}, args...)...)
+	cmd.Stderr = os.Stderr
+	cmd.Stdout = os.Stdout
+	cmd.Stdin = os.Stdin
+	cmd.Dir = filepath.Dir(repoDir)
+
+	log.Printf("Running %q in %s", cmd.String(), cmd.Dir)
+
+	return cmd.Run()
 }

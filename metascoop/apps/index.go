@@ -51,7 +51,7 @@ func (r *RepoIndex) FindLatestPackage(pkgName string) (p PackageInfo, ok bool) {
 			return true
 		}
 
-		v2, err := version.NewVersion(pkgs[i].VersionName)
+		v2, err := version.NewVersion(pkgs[j].VersionName)
 		if err != nil {
 			return false
 		}
