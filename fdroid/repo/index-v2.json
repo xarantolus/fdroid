@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1788288363000,
+    "timestamp": 1788594405000,
     "categories": {
       "Internet": {
         "name": {
@@ -488,7 +488,7 @@
           "Internet",
           "Science & Education"
         ],
-        "lastUpdated": 1788288037000,
+        "lastUpdated": 1788594392000,
         "license": "MIT",
         "sourceCode": "https://github.com/xarantolus/rockit",
         "screenshots": {
@@ -577,6 +577,67 @@
         "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
       },
       "versions": {
+        "9cff2bfa11b69f4020bf6e702c5829b5ced624d19d8bdaaee016059be838409a": {
+          "added": 1788594392000,
+          "file": {
+            "name": "/rockit_v1.7.1.apk",
+            "sha256": "9cff2bfa11b69f4020bf6e702c5829b5ced624d19d8bdaaee016059be838409a",
+            "size": 71229834
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.7.1",
+            "versionCode": 25,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "io.github.xarantolus.rockit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
         "4c4ca96bee62d9af3d222214238689e717d8cb3962937b6d819574cd291f9ad6": {
           "added": 1788288037000,
           "file": {

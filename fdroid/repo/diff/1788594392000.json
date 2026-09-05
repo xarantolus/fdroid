@@ -1,0 +1,14 @@
+{
+  "repo": {
+    "timestamp": 1788594405000
+  },
+  "packages": {
+    "io.github.xarantolus.rockit": {
+      "versions": {
+        "9cff2bfa11b69f4020bf6e702c5829b5ced624d19d8bdaaee016059be838409a": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
