@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1788594405000,
+    "timestamp": 1789994775000,
     "categories": {
       "Internet": {
         "name": {
@@ -40,7 +40,7 @@
         "categories": [
           "Writing"
         ],
-        "lastUpdated": 1777953462000,
+        "lastUpdated": 1789994748000,
         "license": "MIT",
         "sourceCode": "https://github.com/xarantolus/notality",
         "screenshots": {
@@ -79,16 +79,40 @@
         "description": {
           "en-US": "Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.\n\n<b>Features</b>\n\n- Create, edit, delete and reorder notes\n- Automatic dark/light mode depending on the system-wide setting\n- Import/Export your notes to save them externally\n- Localization for English and German\n"
         },
-        "icon": {
-          "en-US": {
-            "name": "/icons/io.github.xarantolus.notality.10.png",
-            "sha256": "57d2f45ddf7f683082a7d8cc42c172f3a0730eacdc6a30f64e925209db2addff",
-            "size": 1125
-          }
-        },
         "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
       },
       "versions": {
+        "99a9fd7ab32e69e8a96e36161bfa1c59ab782e73f7071e6c423b5786aee9526f": {
+          "added": 1789994748000,
+          "file": {
+            "name": "/notality_v1.9.0.apk",
+            "sha256": "99a9fd7ab32e69e8a96e36161bfa1c59ab782e73f7071e6c423b5786aee9526f",
+            "size": 53845518
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.9.0",
+            "versionCode": 11,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "io.github.xarantolus.notality.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "a2c14612ca0cac122e2a1c71f9bd3e36bf42dc774dfdb6386cea77238e3c0010": {
           "added": 1777953462000,
           "file": {

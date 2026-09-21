@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1788594405000,
+    "timestamp": 1789994775000,
     "version": 20002,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -17,17 +17,16 @@
       "categories": [
         "Writing"
       ],
-      "suggestedVersionName": "1.8.1",
-      "suggestedVersionCode": "10",
+      "suggestedVersionName": "1.9.0",
+      "suggestedVersionCode": "11",
       "description": "Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.\n\n<b>Features</b>\n\n- Create, edit, delete and reorder notes\n- Automatic dark/light mode depending on the system-wide setting\n- Import/Export your notes to save them externally\n- Localization for English and German\n",
       "license": "MIT",
       "name": "Notality",
       "sourceCode": "https://github.com/xarantolus/notality",
       "summary": "A very simple note taking app for Android",
       "added": 1777953455000,
-      "icon": "io.github.xarantolus.notality.10.png",
       "packageName": "io.github.xarantolus.notality",
-      "lastUpdated": 1777953462000,
+      "lastUpdated": 1789994748000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -36,7 +35,7 @@
             "3.png",
             "4.png"
           ],
-          "whatsNew": "I just found out how to make the swipe animation (when deleting a note) a lot better. So this release contains that change."
+          "whatsNew": "Upgrades to dependencies and flutter"
         }
       }
     },
@@ -83,6 +82,31 @@
   ],
   "packages": {
     "io.github.xarantolus.notality": [
+      {
+        "added": 1789994748000,
+        "apkName": "notality_v1.9.0.apk",
+        "hash": "99a9fd7ab32e69e8a96e36161bfa1c59ab782e73f7071e6c423b5786aee9526f",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 53845518,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "io.github.xarantolus.notality.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 11,
+        "versionName": "1.9.0"
+      },
       {
         "added": 1777953462000,
         "apkName": "notality_v1.8.1.apk",
