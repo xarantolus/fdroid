@@ -75,6 +75,8 @@ matterleast:
     The app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.
     Since these services aren't necessarily free software, it's labeled with "NonFreeNet".
 
+    This app is significantly vibe-coded / created using LLMs. Most of its code has not been thoroughly reviewed by a human.
+
     Matterleast is not affiliated with or endorsed by Mattermost, Inc. Mattermost is a trademark of Mattermost, Inc.
 
   categories:

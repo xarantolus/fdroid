@@ -4,6 +4,9 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
+  # Sent by an app's release workflow, so a new release shows up at once.
+  repository_dispatch:
+    types: [app-released]
   schedule:
   - cron: "45 2 * * *"
 
