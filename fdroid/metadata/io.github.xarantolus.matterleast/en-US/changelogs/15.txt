@@ -1,0 +1,59 @@
+- Delete stored edit-history copies once, in a schema migration
+- Do not store the edit-history copy of an edited post as a message
+- Keep the planning and research notes out of the repository
+- License the project under Apache-2.0 like the official app
+- Build the APK in CI only when releasing
+- Format message notifications like the official app and order them by time
+- Move a channel up for every stored post, not only new live ones
+- Have lanes drive the emulator through the mobile MCP tools
+- Bring back the last closed chat from Home and show unread DM previews
+- Close the sheet or picker before opening the conversation
+- Download the Node setup script before running it in the dev container
+- Outline the quick reactions in the message menu
+- Give seeded users and the team generated pattern avatars
+- Describe the app in the README and add the licence
+- Offer the CA only for https servers and load it once per isolate
+- Trust a private certificate authority per server
+- Add a team menu to join, invite to and leave teams, and a list of open teams to join
+- Let the user pick their time zone on the server or follow the phone
+- Add the server's search results below the stored ones instead of swapping them
+- Add an unreads filter to the channel list and say when live updates are down
+- Keep the add-reaction button with the last reaction and show the shortcode plainly
+- Let a custom status clear at a chosen date and time
+- Show the server version in About, and email and automatic reply settings where the server offers them
+- Show channel bookmarks and custom profile attributes
+- Generate the bookmark edit and delete endpoints
+- Show the channel list and conversation side by side on wide screens
+- Release 0.9.0
+- Sort the post tile imports after the rebase
+- Keep the agent actions on the session like the others
+- Talk to agents when the server runs the Agents plugin
+- Add the Agents plugin and a fake model to the test server
+- Schedule messages, sync drafts with the server and show burn-on-read messages
+- Wait for the upload to arrive instead of polling by hand
+- Share the fake server session and the in-memory database between tests
+- Test that tapping a link in a message moves nothing
+- Test the failed older page on the message list the reader sees
+- Test that a refresh with more changes than one answer leaves a gap
+- Test day labels across midnight and clock changes
+- Test that a shared upload refused by the server sends nothing
+- Time typing expiry with fake time and drop tests that could not fail
+- Wait on conditions instead of guessed times in tests, and cover link schemes and zone times
+- Keep theme colours readable on every theme and show disabled app bar actions
+- Keep the signed-in user in the conversation state for announcements
+- Name emoji picker cells and inline formulas once for screen readers
+- Share one paged search between people lists and Browse channels
+- Give bottom sheets one left-aligned header
+- Scroll to a sent message, keep pinned rows from flashing empty, test message semantics
+- Align multi-line field labels and offer Create in an empty Browse channels
+- Polish the conversation, its dialogs and channel info
+- Type the name format and keep one byte size and full name helper
+- Move screen-side drift queries into the data views
+- Read JSON columns through typed drift converters
+- Keep one set of action objects per server session
+- Send the picked day's UTC offset with a dated search
+- Decide favourite moves in a pure function that tolerates missing categories
+- Join identical GETs in ServerApi, cap fan-out and jitter reconnects
+- Upload shared files through the one cancellable upload path
+- Read the rail's mention count in words and label a new profile picture
+- Polish sign-in, Home, channel list, search, You page and share

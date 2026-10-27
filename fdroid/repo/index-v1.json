@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789994775000,
+    "timestamp": 1793088673000,
     "version": 20002,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -12,6 +12,40 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "authorName": "xarantolus",
+      "categories": [
+        "Internet",
+        "Messaging"
+      ],
+      "suggestedVersionName": "0.9.0",
+      "suggestedVersionCode": "15",
+      "description": "Matterleast is an unofficial Android app for <a href=\"https://mattermost.com/\">Mattermost</a> servers that tries to feel closer to Discord than to a classic team chat.\nAll your servers and teams sit in one rail, and chats slide in over the channel list and away again with a swipe.\n\n<b>Features</b>\n\n- Discord-style navigation: a rail with every server and team, swipe a chat away to the channel list and swipe it back\n- One Home inbox across all servers for unread messages, mentions, threads and saved messages\n- Notifications without Google's push service: the app checks in the background, or stays connected if you turn that on\n- Two or three panes side by side on tablets and in landscape\n- Matterleast colours, your Mattermost theme or your wallpaper colours (Material You)\n\nTo use this app, you need the address of a Mattermost server and an account on it.\nThe app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.\nSince these services aren't necessarily free software, it's labeled with \"NonFreeNet\".\n\nMatterleast is not affiliated with or endorsed by Mattermost, Inc. Mattermost is a trademark of Mattermost, Inc.\n",
+      "license": "Apache-2.0",
+      "name": "Matterleast",
+      "sourceCode": "https://github.com/xarantolus/matterleast",
+      "summary": "Third-party Mattermost client with a Discord-like feel. Not affiliated with o...",
+      "added": 1793088647000,
+      "packageName": "io.github.xarantolus.matterleast",
+      "lastUpdated": 1793088647000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_emU1g0kwZUZPFoMQZFU0GppFryIYPf1bNkrzpPSw5U4=.png",
+          "phoneScreenshots": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg"
+          ],
+          "whatsNew": "- Delete stored edit-history copies once, in a schema migration\n- Do not store the edit-history copy of an edited post as a message\n- Keep the planning and research notes out of the repository\n- License the project under Apache-2.0 like the official app\n- Build the APK in CI only when releasing\n- Format message notifications like the official app and order them by time\n- Move a channel up for every stored post, not only new live ones\n- Have lanes drive the emulator through the mobile MCP tools\n-"
+        }
+      }
+    },
     {
       "authorName": "xarantolus",
       "categories": [
@@ -81,6 +115,69 @@
     }
   ],
   "packages": {
+    "io.github.xarantolus.matterleast": [
+      {
+        "added": 1793088647000,
+        "apkName": "matterleast_v0.9.0.apk",
+        "hash": "4b8e0922c02684797ee4bef6a01c554ef590a137ae9acfd8693fecef220c4ae5",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.matterleast",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 76904259,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "io.github.xarantolus.matterleast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 15,
+        "versionName": "0.9.0"
+      }
+    ],
     "io.github.xarantolus.notality": [
       {
         "added": 1789994748000,
