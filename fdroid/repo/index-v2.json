@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1793088673000,
+    "timestamp": 1793089372000,
     "categories": {
       "Internet": {
         "name": {
@@ -93,7 +93,7 @@
           "en-US": "Third-party Mattermost client with a Discord-like feel. Not affiliated with o..."
         },
         "description": {
-          "en-US": "Matterleast is an unofficial Android app for <a href=\"https://mattermost.com/\">Mattermost</a> servers that tries to feel closer to Discord than to a classic team chat.\nAll your servers and teams sit in one rail, and chats slide in over the channel list and away again with a swipe.\n\n<b>Features</b>\n\n- Discord-style navigation: a rail with every server and team, swipe a chat away to the channel list and swipe it back\n- One Home inbox across all servers for unread messages, mentions, threads and saved messages\n- Notifications without Google's push service: the app checks in the background, or stays connected if you turn that on\n- Two or three panes side by side on tablets and in landscape\n- Matterleast colours, your Mattermost theme or your wallpaper colours (Material You)\n\nTo use this app, you need the address of a Mattermost server and an account on it.\nThe app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.\nSince these services aren't necessarily free software, it's labeled with \"NonFreeNet\".\n\nMatterleast is not affiliated with or endorsed by Mattermost, Inc. Mattermost is a trademark of Mattermost, Inc.\n"
+          "en-US": "Matterleast is an unofficial Android client for <a href=\"https://mattermost.com/\">Mattermost</a> servers that tries to have a feel closer to Discord.\n\n<b>Features</b>\n\n- Discord-style feel and navigation: you can swipe between chats, swipe on messages to react/reply etc.\n- One Home inbox across all servers for unread messages, mentions, threads and saved messages\n- Notifications without Google's push service via a background job\n- Tablet layout in landscape\n- Different theming options: Matterleast colours, your Mattermost theme or Material You\n\nOther (obvious) features that exist: threads, reactions, file previews, sharing, search, custom emojis, bots, channel management and more.\n\n<b>Limitations</b>\n\n- Calls, Playbooks and Boards are not supported, nor are Apps framework forms and message translation.\n- Notifications don't go through Mattermost's push proxy, so new messages arrive when the app checks (about every 15 minutes) unless \"Stay connected\" is on.\n\nTo use this app, you need the address of a Mattermost server and an account on it.\nThe app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.\nSince these services aren't necessarily free software, it's labeled with \"NonFreeNet\".\n\nMatterleast is not affiliated with or endorsed by Mattermost, Inc. Mattermost is a trademark of Mattermost, Inc.\n"
         },
         "icon": {
           "en-US": {
