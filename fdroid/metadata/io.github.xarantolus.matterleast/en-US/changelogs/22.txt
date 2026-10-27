@@ -1,0 +1,8 @@
+- Release 0.13.2
+- Load PDFium from the build hook's output in the PDF screen test
+- Clear a PDF text selection when the search opens
+- Accept the SSO callback with a slash after the host and name a rejected shape
+- Draw the pane divider line the full height
+- Search, select, follow links and unlock PDFs in the viewer
+- Add a script that writes invented PDFs for the viewer tests
+- Let the channel list and thread pane be dragged to a width
