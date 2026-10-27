@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793127925000,
+    "timestamp": 1793139508000,
     "version": 20002,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -21,8 +21,8 @@
         "Internet",
         "Messaging"
       ],
-      "suggestedVersionName": "0.13.0",
-      "suggestedVersionCode": "20",
+      "suggestedVersionName": "0.13.1",
+      "suggestedVersionCode": "21",
       "description": "Matterleast is an unofficial Android client for <a href=\"https://mattermost.com/\">Mattermost</a> servers that tries to have a feel closer to Discord.\n\n<b>Features</b>\n\n- Discord-style feel and navigation: you can swipe between chats, swipe on messages to react/reply etc.\n- One Home inbox across all servers for unread messages, mentions, threads and saved messages\n- Notifications without Google's push service via a background job\n- Tablet layout in landscape\n- Different theming options: Matterleast colours, your Mattermost theme or Material You\n\nOther (obvious) features that exist: threads, reactions, file previews, sharing, search, custom emojis, bots, channel management and more.\n\n<b>Limitations</b>\n\n- Calls, Playbooks and Boards are not supported, nor are Apps framework forms and message translation.\n- Notifications don't go through Mattermost's push proxy, so new messages arrive when the app checks (about every 15 minutes) unless \"Stay connected\" is on.\n\nTo use this app, you need the address of a Mattermost server and an account on it.\nThe app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.\nSince these services aren't necessarily free software, it's labeled with \"NonFreeNet\".\n\nThis app is significantly vibe-coded / created using LLMs. Most of its code has not been thoroughly reviewed by a human.\n\nMatterleast is not affiliated with or endorsed by Mattermost, Inc. Mattermost is a trademark of Mattermost, Inc.\n",
       "license": "Apache-2.0",
       "name": "Matterleast",
@@ -30,7 +30,7 @@
       "summary": "Third-party Mattermost client with a Discord-like feel. Not affiliated with o...",
       "added": 1793088647000,
       "packageName": "io.github.xarantolus.matterleast",
-      "lastUpdated": 1793127860000,
+      "lastUpdated": 1793139470000,
       "localized": {
         "en-US": {
           "icon": "icon_emU1g0kwZUZPFoMQZFU0GppFryIYPf1bNkrzpPSw5U4=.png",
@@ -42,7 +42,7 @@
             "5.jpg",
             "6.jpg"
           ],
-          "whatsNew": "- Release 0.13.0\n- Open sheets as popups and add keyboard shortcuts on desktop\n- Use messages with a mouse on desktop\n- Make the app bar the desktop title bar and badge unread mentions\n- Add a script that renders the desktop unread badges\n- Copy the file on Save as instead of reading it into memory\n- Add drag and drop, image paste and type-to-focus to the desktop composer\n- Play video on Windows, open it in the system player on Linux, save files with Save as and use Windows-safe file names\n- Doc"
+          "whatsNew": "- Release 0.13.1\n- Log whether a second Windows launch handed its link over\n- Finish desktop SSO on the server's site URL and never wait silently\n- Describe the self-registering Linux tarball\n- Add the Linux app to the app menu and register mmauth on start\n- Drop the install scripts from the Linux tarball\n- Describe installing the Linux tarball and its known gaps\n- Show the unread count on the Linux launcher icon and word the keyring notice\n- Add the Linux install and uninstall scripts\n- Pack th"
         }
       }
     },
@@ -116,6 +116,67 @@
   ],
   "packages": {
     "io.github.xarantolus.matterleast": [
+      {
+        "added": 1793139470000,
+        "apkName": "matterleast_v0.13.1.apk",
+        "hash": "0eea450fd30028b87aec30ba7c70627c265182a03e9dc8507f006bc88016a64e",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.matterleast",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 77573488,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "io.github.xarantolus.matterleast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 21,
+        "versionName": "0.13.1"
+      },
       {
         "added": 1793127860000,
         "apkName": "matterleast_v0.13.0.apk",

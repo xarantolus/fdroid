@@ -1,0 +1,10 @@
+- Release 0.13.1
+- Log whether a second Windows launch handed its link over
+- Finish desktop SSO on the server's site URL and never wait silently
+- Describe the self-registering Linux tarball
+- Add the Linux app to the app menu and register mmauth on start
+- Drop the install scripts from the Linux tarball
+- Describe installing the Linux tarball and its known gaps
+- Show the unread count on the Linux launcher icon and word the keyring notice
+- Add the Linux install and uninstall scripts
+- Pack the Linux tarball with launcher entry, icon and install scripts
