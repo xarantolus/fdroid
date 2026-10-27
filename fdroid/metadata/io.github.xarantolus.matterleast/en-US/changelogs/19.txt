@@ -1,0 +1,13 @@
+- Release 0.12.0
+- Stop waiting on a server that doesn't answer and show queued posts at once
+- Add keyboard handling to the composer
+- Split the release workflow into build jobs and one publish job
+- Add a per-user Windows installer
+- Show a newer release at the top right of the desktop window
+- Regenerate providers after the focus change
+- Show desktop toasts from the live connection while the app runs
+- Fail requests at once without a network and refresh when it returns
+- Unarchive, convert to private and remove members from channel info
+- Build for Windows on releases and on request, and install GTK headers for tests
+- Make the desktop runners single instance
+- Run on Windows and Linux without the phone's services, with a tray and a remembered window
