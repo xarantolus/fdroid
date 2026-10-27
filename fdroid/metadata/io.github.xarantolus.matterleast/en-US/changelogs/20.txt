@@ -1,0 +1,10 @@
+- Release 0.13.0
+- Open sheets as popups and add keyboard shortcuts on desktop
+- Use messages with a mouse on desktop
+- Make the app bar the desktop title bar and badge unread mentions
+- Add a script that renders the desktop unread badges
+- Copy the file on Save as instead of reading it into memory
+- Add drag and drop, image paste and type-to-focus to the desktop composer
+- Play video on Windows, open it in the system player on Linux, save files with Save as and use Windows-safe file names
+- Document the Windows and Linux downloads
+- Sign in with SSO on desktop through the system browser
