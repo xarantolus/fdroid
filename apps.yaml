@@ -54,16 +54,22 @@ matterleast:
   # to extract; this one is used instead.
   icon: assets/icon/legacy.png
   description: |
-    Matterleast is an unofficial Android app for <a href="https://mattermost.com/">Mattermost</a> servers that tries to feel closer to Discord than to a classic team chat.
-    All your servers and teams sit in one rail, and chats slide in over the channel list and away again with a swipe.
+    Matterleast is an unofficial Android client for <a href="https://mattermost.com/">Mattermost</a> servers that tries to have a feel closer to Discord.
 
     <b>Features</b>
 
-    - Discord-style navigation: a rail with every server and team, swipe a chat away to the channel list and swipe it back
+    - Discord-style feel and navigation: you can swipe between chats, swipe on messages to react/reply etc.
     - One Home inbox across all servers for unread messages, mentions, threads and saved messages
-    - Notifications without Google's push service: the app checks in the background, or stays connected if you turn that on
-    - Two or three panes side by side on tablets and in landscape
-    - Matterleast colours, your Mattermost theme or your wallpaper colours (Material You)
+    - Notifications without Google's push service via a background job
+    - Tablet layout in landscape
+    - Different theming options: Matterleast colours, your Mattermost theme or Material You
+
+    Other (obvious) features that exist: threads, reactions, file previews, sharing, search, custom emojis, bots, channel management and more.
+
+    <b>Limitations</b>
+
+    - Calls, Playbooks and Boards are not supported, nor are Apps framework forms and message translation.
+    - Notifications don't go through Mattermost's push proxy, so new messages arrive when the app checks (about every 15 minutes) unless "Stay connected" is on.
 
     To use this app, you need the address of a Mattermost server and an account on it.
     The app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.
