@@ -1,0 +1,36 @@
+- Release 0.10.0
+- Retake the README screenshots
+- Make the README screenshot script work on a fresh install
+- Open the profile from the whole name line, not only the name text
+- Mark only channel drafts in the channel list and show thread drafts on their post
+- Go back to an open conversation instead of stacking another copy
+- Open every page in a slide route that goes back on a right swipe
+- Summarize unreads with the time the channel was last read
+- Make three flaky tests wait on what they check, and let draft sync finish before the session closes
+- Open every agent conversation in the Agents history
+- Give agent conversations a short title from the fake model
+- Open a file from the Files list and offer Open in channel in its menu
+- Restore the conversation through openConversation and drop the memory family
+- Simplify run-container.sh and drop the sg re-exec
+- Outline the reaction chip when it is yours
+- Let a fling carry on by itself when older rows arrive
+- Spin the older-edge spinner only while a page loads
+- Show composer suggestions over the messages instead of above the field
+- Give the start of a conversation the older-edge spinner's room
+- Keep the reader's rows in place when older messages arrive at the top
+- Size the quick-reaction row by the sheet's width, not the screen's
+- Cap every inline image at 45 percent of the screen's longer side
+- Honour reduced motion in every animation through one helper
+- Reopen the last open conversation at launch
+- Rebuild the F-Droid repository when a release is published
+- Add vibe coding disclosure
+- Add installation section
+- Align Home rows with the channel list and stop an all-caught-up Home from scrolling
+- Regenerate the API client without the blank lines the doc comments left
+- Keep the API spec and its documentation text out of the repository
+- Human rewrite of README
+- Say in CLAUDE.md when to retake the README screenshots
+- Add README screenshots in dark and light mode
+- Add a script that reseeds demo content and retakes the README screenshots
+- Keep secrets to a main-only release job and check fork pull requests
+- Shorten the README around the Discord-like feel and spell out the licences

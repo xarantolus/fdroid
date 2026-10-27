@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1793090228000,
+    "timestamp": 1793099635000,
     "categories": {
       "Internet": {
         "name": {
@@ -46,7 +46,7 @@
           "Internet",
           "Messaging"
         ],
-        "lastUpdated": 1793088647000,
+        "lastUpdated": 1793099599000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/xarantolus/matterleast",
         "screenshots": {
@@ -54,33 +54,33 @@
             "en-US": [
               {
                 "name": "/io.github.xarantolus.matterleast/en-US/phoneScreenshots/1.jpg",
-                "sha256": "8e76402633302902881e44df96e7c0f532e46832b4513c98c01962d453eada82",
-                "size": 148693
+                "sha256": "c18de6ddb45856bf8c8654b5490970dd3b5e434682bc3fec68541972a3ee52de",
+                "size": 151120
               },
               {
                 "name": "/io.github.xarantolus.matterleast/en-US/phoneScreenshots/2.jpg",
-                "sha256": "ea71697018fe22fcde017c1cdc35251608109edecbb0cf968114619be38241c4",
-                "size": 114697
+                "sha256": "c1ef60c2ab529178bdb46e7b7399ff5f59241fc660354af68c1f29fae44488ce",
+                "size": 130398
               },
               {
                 "name": "/io.github.xarantolus.matterleast/en-US/phoneScreenshots/3.jpg",
-                "sha256": "536f490f5c4b76e178e8742eeda5c2d4abbc487570f9f8c147ac7840198fd46c",
-                "size": 99431
+                "sha256": "ef7bf0151373e15a746280d79f9cec37078976e55f37c12f6e2a15a415e6f8d7",
+                "size": 102235
               },
               {
                 "name": "/io.github.xarantolus.matterleast/en-US/phoneScreenshots/4.jpg",
-                "sha256": "42156fdd8a4c2194a4f3a60c5039bc3ce396b8d6041ee6dae38aaaa6fa7af298",
-                "size": 149546
+                "sha256": "35fc42ac8fb148b1ebaf59e2a618f36de2adcfba3f28f3ff84a97d8465ef7ff7",
+                "size": 152281
               },
               {
                 "name": "/io.github.xarantolus.matterleast/en-US/phoneScreenshots/5.jpg",
-                "sha256": "2072fee31b1edfbdf8ef6998566838492b315f2820781d264f27dd379a5aee2e",
-                "size": 115798
+                "sha256": "9f152014f52d536f4fd92f7799a05e69a29c0b759bc008dbff23511aed00514d",
+                "size": 131390
               },
               {
                 "name": "/io.github.xarantolus.matterleast/en-US/phoneScreenshots/6.jpg",
-                "sha256": "f056d819252b166abe3333cac5091e9e6d9b17b681405cbbe19d04bfd21f61a8",
-                "size": 100989
+                "sha256": "9a5729f6e83c108d0b47e069a54e5ae075122460fc4cb42d9daace6457b253fa",
+                "size": 103881
               }
             ]
           }
@@ -105,6 +105,67 @@
         "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
       },
       "versions": {
+        "c47b8b7d199a74f399c59bee5dd8f54eb01e9d81c48a2f7960bb1a7653d4d4e4": {
+          "added": 1793099599000,
+          "file": {
+            "name": "/matterleast_v0.10.0.apk",
+            "sha256": "c47b8b7d199a74f399c59bee5dd8f54eb01e9d81c48a2f7960bb1a7653d4d4e4",
+            "size": 77002563
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.10.0",
+            "versionCode": 16,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "io.github.xarantolus.matterleast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
         "4b8e0922c02684797ee4bef6a01c554ef590a137ae9acfd8693fecef220c4ae5": {
           "added": 1793088647000,
           "file": {
