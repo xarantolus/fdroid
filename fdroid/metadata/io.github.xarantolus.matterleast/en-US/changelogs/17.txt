@@ -1,0 +1,20 @@
+- Release 0.11.0
+- End an agent answer when the server stores its text or the socket comes back
+- Let the fake agent model fail and wait on request
+- Match the official app on badges, pins, reply counts and reactions
+- Install dbus-daemon instead of dbus-x11 in the image
+- Add tool/desktop.sh, a Linux desktop lane driven by screenshots and xdotool
+- Allow the desktop lane's origin for test server WebSockets
+- Add the Linux desktop build and a virtual desktop session to the image
+- Add the Linux and Windows desktop runners
+- Mark a reply unread on its thread under collapsed threads
+- Focus the thread composer after Reply, restore focus after sheets, keep the channel under a notified thread, close channels the user was removed from
+- Go back to the list first when taking README screenshots
+- Announce only who wrote a new message, and give the time its own line at large sizes
+- Regenerate the open panes provider
+- Hold the channel list while a notification or shortcut opens its channel
+- Open search and pinned results by the same thread rule as Home
+- Close a channel wherever it shows once the user leaves it
+- Bring back only a conversation that can still be opened
+- Take the keyboard from the field below when a page opens over it
+- Read each message as one screen reader stop with its actions
