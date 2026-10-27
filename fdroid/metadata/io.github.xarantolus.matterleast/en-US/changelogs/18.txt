@@ -1,0 +1,5 @@
+- Add a thread options sheet to followed threads in Threads and Home
+- Release 0.11.1
+- Format the far-up send test
+- Show a message sent from far up in a long conversation
+- Match the official app on incoming unread, membership and server events
