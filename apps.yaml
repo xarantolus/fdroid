@@ -46,3 +46,34 @@ rockit:
 
   anti_features:
     - NonFreeNet
+
+matterleast:
+  git: https://github.com/xarantolus/matterleast
+  name: "Matterleast"
+  # The launcher icon is an adaptive icon (XML), so fdroid finds no raster
+  # to extract; this one is used instead.
+  icon: assets/icon/legacy.png
+  description: |
+    Matterleast is an unofficial Android app for <a href="https://mattermost.com/">Mattermost</a> servers that tries to feel closer to Discord than to a classic team chat.
+    All your servers and teams sit in one rail, and chats slide in over the channel list and away again with a swipe.
+
+    <b>Features</b>
+
+    - Discord-style navigation: a rail with every server and team, swipe a chat away to the channel list and swipe it back
+    - One Home inbox across all servers for unread messages, mentions, threads and saved messages
+    - Notifications without Google's push service: the app checks in the background, or stays connected if you turn that on
+    - Two or three panes side by side on tablets and in landscape
+    - Matterleast colours, your Mattermost theme or your wallpaper colours (Material You)
+
+    To use this app, you need the address of a Mattermost server and an account on it.
+    The app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.
+    Since these services aren't necessarily free software, it's labeled with "NonFreeNet".
+
+    Matterleast is not affiliated with or endorsed by Mattermost, Inc. Mattermost is a trademark of Mattermost, Inc.
+
+  categories:
+    - Internet
+    - Messaging
+
+  anti_features:
+    - NonFreeNet
