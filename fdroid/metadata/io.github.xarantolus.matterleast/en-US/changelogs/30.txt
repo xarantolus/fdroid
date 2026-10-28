@@ -1,0 +1,11 @@
+- Release 0.21.0
+- Keep the text cursor over a message that opens its thread
+- Add Matterleast and Material You light/dark colour modes, tolerate null drafts, close the thread before opening its channel, smaller composer gap on desktop
+- Edit flow: cursor and focus at once, hint on the editing bar, edited message tinted
+- Closing a conversation saves where the reader was, however it closes
+- Never keep the app catching up forever; a resume during a stop keeps the socket state
+- Holding a link or its preview offers only to copy it
+- Remove Alt+click mark unread; make the copy image test wait on the file read
+- Esc closes panes from the message list and composer through a prioritised Esc; keep popouts' keys to themselves
+- Mark a conversation read once its newest message is in view, after the opening refresh
+- Add Mattermost desktop shortcuts: recent mentions, new message, focus the composer, formatting, input history and Esc to mark read
