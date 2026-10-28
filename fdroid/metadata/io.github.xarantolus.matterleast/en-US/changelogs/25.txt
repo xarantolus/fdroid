@@ -1,0 +1,17 @@
+- Release 0.16.0
+- Swipe between all and unread threads
+- Stop PDF panning at the page edges
+- Trim comments that restate the code
+- Revert the screen-reader refocus after closing a thread
+- Read notification payloads with a generated model
+- Handle Return and the arrows inside the quick switcher's own view
+- Open files through the desktop portal on Linux
+- Put the screen reader back on the message when its thread closes
+- Reach the message toolbar with the keyboard on desktop
+- Offer Reply and Mark as read on desktop toasts
+- Mark urgent mentions on channel, team and Home badges
+- Say how many a group notifies in @ suggestions, and test 403 and 404
+- Generate a group's member count and reference flag
+- Show a snack bar once per window however many panes are open
+- Open the highlighted match on Return in the quick switcher
+- Bring the README's limitations up to date with the desktop builds
