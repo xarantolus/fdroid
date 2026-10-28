@@ -1,0 +1,19 @@
+- Release 0.20.0
+- Size desktop media and tables relative to the window
+- Swipe right to go back and left to go forward, as in Firefox
+- Ask for sizes relative to the window in CLAUDE.md
+- Click plays and pauses a video on desktop, double click fills the window
+- Show tables whole inside the message where panes show
+- Open agent citation links to the post's own team
+- Keep text recognizers across rebuilds so mentions stay clickable, open a thread on a desktop click, same-size reaction chips, DM title from the channel
+- Make agent replies selectable on desktop
+- Show current usernames in system messages
+- Use the bundled emoji font on Linux
+- Bundle Noto Color Emoji and its licence
+- Regenerate composer controller
+- Regenerate composer providers
+- Highlight the open channel, close the thread pane at the end, middle-click autoscroll, always show Drafts, sync drafts when quiet or left
+- Find a free tray name, quit on close without a tray, go back and forward with a two-finger swipe
+- Let the Windows installer close the app by ending the session for real
+- Remove unused imports in scroll tests
+- Cap desktop image previews, add a row-based scrollbar, keep a searched message in view
