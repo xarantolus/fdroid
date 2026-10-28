@@ -1,0 +1,22 @@
+- Release 0.14.0
+- Keep the Flatpak runtime cache to the runtime and SDK
+- Retake the README screenshots and add the desktop pair
+- Load the channel once before the desktop screenshots
+- Take the README desktop screenshots from the desktop lane
+- Regenerate the composer provider hash
+- Point the README's Linux install at the Flatpak
+- Build the Linux Flatpak in CI and cache the Windows build hooks
+- Package Linux as a Flatpak instead of a tarball
+- Title the Save as dialog and log why saving failed
+- Leave the Linux launcher entry to the Flatpak
+- Load images when the system gives no connectivity reports
+- Wait for dropped files to finish uploading in the drop tests
+- Give the strip test a provider container of its own
+- Set the Linux window icon in the runner at a size X11 keeps
+- Test the window strip, its colours, the desktop sizes and the login link
+- Show the app icon on the Linux window and shorten the argument note
+- Find the running Windows instance by its exe, not its window title
+- Give the Windows exe, window and installer the Matterleast icon
+- Render the Windows icon with the launcher icons
+- Size the desktop for a mouse: 14 px text, 36 px rows, 48 px app bars
+- Put the desktop window buttons in a thin strip across the window
