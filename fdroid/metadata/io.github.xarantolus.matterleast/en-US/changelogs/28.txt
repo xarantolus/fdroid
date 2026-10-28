@@ -1,0 +1,9 @@
+- Release 0.19.0
+- Regenerate open_panes
+- Open a thread from the Threads list in the thread pane; the thread header names its channel as a link
+- Add the My username mention option
+- Play the system message sound on desktop notifications unless desktop_sound is off
+- Brighter dark muted text, larger desktop list text and bold section headers
+- Add tool/gate.sh to run the gate detached and wait for its result
+- Make disabled controls, off switches and server-theme secondary text readable in dark mode
+- Mouse back and forward follow a history of opened conversations, in-window video full screen, hashtags search, no maximum pane widths, hidden pointer while a video plays
