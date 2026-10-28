@@ -1,0 +1,9 @@
+- Release 0.15.0
+- Let a slide on a video's play button close the gallery, with the gallery's rule
+- Build message rows only once what they show is known
+- Re-anchor the conversation when rows change while the reader scrolls
+- Keep a stored link preview when a later copy of the post comes without it
+- Close the gallery on a short slide or a quick fling
+- Poll presence after a refresh stores new direct messages; keep Home rows one sentence
+- Carry the author's custom status on each post and test live state per server
+- Show live state only while its server is live; custom status emoji beside names
