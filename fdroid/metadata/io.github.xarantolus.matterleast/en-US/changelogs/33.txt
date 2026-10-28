@@ -1,0 +1,2 @@
+- Release 0.22.0
+- Give the gallery desktop controls: step buttons, keys, wheel, counter and video keys
