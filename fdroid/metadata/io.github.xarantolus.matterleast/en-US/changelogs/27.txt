@@ -1,0 +1,9 @@
+- Describe the three platforms, desktop feel, review rules and the lane workflow in CLAUDE.md
+- Release 0.18.0
+- Make server tests wait on events, not on production timeouts, and add pumpWithServer
+- Give the composer, files and code block tests an app database and provider scope
+- Give every content view a header of one height
+- Keep the header opaque while a page slides in; start the per-team memory in tests
+- Keep the open and the last closed conversation per team, and switch to them with the rail
+- Open settings, channel info and the switcher as popouts on desktop; mouse back and forward
+- Open content views under one shared header, in the conversation pane on wide windows
