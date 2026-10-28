@@ -1,0 +1,16 @@
+- Release 0.17.0
+- Shorten the desktop lane's comments and set the window title in the app font
+- Keep the channel info alive for Ctrl+F in a conversation
+- Make the emoji picker keyboard-driven, hide focus rings after mouse clicks, and cover the desktop inputs with tests
+- Format the font licence registration
+- Use Rubik as the app's typeface
+- Add the window title, tray status menu, link hover and middle click, image copy, and Mattermost shortcuts
+- Keep an opened message's top in place in a short list, close PDFs with Esc
+- Shorten the lane's doc comments
+- Underline links and names under the mouse
+- Show loading pictures, close the gallery with Esc and stop video end flicker
+- Give the emoji card the sheet's full width
+- Make the desktop client scroll, zoom and hover like a desktop app
+- Keep an expanded code block expanded when its row is rebuilt
+- Show the hand cursor over everything a click acts on
+- Add desktop tooltips, emoji card, inline code blocks and right-click menus
