@@ -1,0 +1,3 @@
+- Release 0.21.1
+- Don't switch focus highlight on bare modifier keys or key releases
+- Keep a channel created during a refresh when that refresh was answered without it

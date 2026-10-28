@@ -3,8 +3,8 @@ AuthorName: xarantolus
 Categories:
     - Internet
     - Messaging
-CurrentVersion: 0.21.0
-CurrentVersionCode: 30
+CurrentVersion: 0.21.1
+CurrentVersionCode: 31
 Description: |
     Matterleast is an unofficial Android client for <a href="https://mattermost.com/">Mattermost</a> servers that tries to have a feel closer to Discord.
 
