@@ -1,0 +1,7 @@
+- Release 0.21.2
+- Make the read-after-refresh test hold the refresh and answer the user lookup
+- Drop an unneeded import
+- Open the gallery on the tile's decoded picture, and hint when there is no tray
+- Keep the composer field when the editing bar appears, drop the delayed focus request
+- Fix the desktop screenshot click for the window strip and park the mouse
+- Retake README screenshots
