@@ -1,0 +1,4 @@
+- Release 0.26.1
+- Let pumpWithServer take the file downloads, pending by default
+- Sort imports in the history test
+- Alt+Left closes a gallery; Back over a popout's backdrop no longer pops twice
