@@ -1,0 +1,6 @@
+- Release 0.23.0
+- Regenerate for the shorter doc comments
+- Trim the place-history comments to one line and explain the test teardown settle
+- Keep a history of places with where the reader was
+- Reconcile the open conversations with the rail's place
+- WIP place history
