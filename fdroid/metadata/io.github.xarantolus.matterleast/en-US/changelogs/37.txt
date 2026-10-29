@@ -1,0 +1,5 @@
+- Release 0.26.0
+- Retake README screenshots with Inter
+- Close what is on top with maybePop on the app navigator
+- Back closes the gallery, preview or popout on top instead of stepping the history
+- Use Inter for all text and keep Rubik for the channel list rows
