@@ -1,0 +1,2 @@
+- Release 0.28.1
+- Show the first reply of a new thread when the phone clock runs ahead
