@@ -85,3 +85,40 @@ matterleast:
 
   anti_features:
     - NonFreeNet
+
+offline-hn:
+  git: https://github.com/xarantolus/offline-hn
+  name: "Offline HN"
+  # The launcher icon is an adaptive icon (XML), so fdroid finds no raster
+  # to extract; this one is used instead.
+  icon: tool/icon/legacy.png
+  description: |
+    Offline HN is an unofficial <a href="https://news.ycombinator.com">Hacker News</a> reader that downloads stories, comments and linked articles on Wi-Fi, so you can read them offline.
+
+    <b>Features</b>
+
+    - Top, Best, Ask and Show feeds with search
+    - Collapsible comment threads
+    - Saved copies of linked articles, with ads and cookie banners removed
+    - Background updates, by default only on Wi-Fi and while charging
+    - Swipe between feeds and stories, hide read stories
+
+    <b>Limitations</b>
+
+    - Read-only: no login, voting or commenting
+    - Pages behind logins or captchas can't be saved, video links are skipped
+
+    The app connects to the Hacker News API, Algolia, the linked websites and filter list hosts, so it's labeled with "NonFreeNet".
+
+    This app is significantly vibe-coded / created using LLMs. Most of its code has not been thoroughly reviewed by a human.
+
+    Offline HN is not affiliated with or endorsed by Y Combinator.
+
+  categories:
+    - Forum
+    - Internet
+    - News
+    - Reading
+
+  anti_features:
+    - NonFreeNet
