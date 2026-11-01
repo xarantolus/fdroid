@@ -14,8 +14,13 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1793278424000,
+    "timestamp": 1793515439000,
     "categories": {
+      "Forum": {
+        "name": {
+          "en-US": "Forum"
+        }
+      },
       "Internet": {
         "name": {
           "en-US": "Internet"
@@ -24,6 +29,16 @@
       "Messaging": {
         "name": {
           "en-US": "Messaging"
+        }
+      },
+      "News": {
+        "name": {
+          "en-US": "News"
+        }
+      },
+      "Reading": {
+        "name": {
+          "en-US": "Reading"
         }
       },
       "Science & Education": {
@@ -2048,6 +2063,1004 @@
                 "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
               ]
             }
+          }
+        }
+      }
+    },
+    "io.github.xarantolus.offlinehn": {
+      "metadata": {
+        "added": 1793515408000,
+        "categories": [
+          "Forum",
+          "Internet",
+          "News",
+          "Reading"
+        ],
+        "lastUpdated": 1793515415000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/xarantolus/offline-hn",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/io.github.xarantolus.offlinehn/en-US/phoneScreenshots/1.png",
+                "sha256": "4e9ca01ba72ed56a145d3cc88a6042afc70853123f90b45783186d21eda38090",
+                "size": 304094
+              },
+              {
+                "name": "/io.github.xarantolus.offlinehn/en-US/phoneScreenshots/2.png",
+                "sha256": "5cd5a3782a2d7333f8caf877882f0bb8f25f46fe08f7256e5ae4dd44e9b0d81b",
+                "size": 187606
+              },
+              {
+                "name": "/io.github.xarantolus.offlinehn/en-US/phoneScreenshots/3.png",
+                "sha256": "5ba581839396c420f9658f4c833338b1d396a6dc364f4c14fc92b5122de3bb09",
+                "size": 367891
+              },
+              {
+                "name": "/io.github.xarantolus.offlinehn/en-US/phoneScreenshots/4.png",
+                "sha256": "7a9d7888bea4dd3a2ee178a18f933d472a52b8f3642ace11732871e241c9c1c5",
+                "size": 302726
+              },
+              {
+                "name": "/io.github.xarantolus.offlinehn/en-US/phoneScreenshots/5.png",
+                "sha256": "6e7383793d9d9703d857105eb875021017c103cf307c2c7e9c182e3cac4ce82f",
+                "size": 188609
+              },
+              {
+                "name": "/io.github.xarantolus.offlinehn/en-US/phoneScreenshots/6.png",
+                "sha256": "c58273feff8d33372f4b7c59e35fa2eb541f2c498099f30a83362de8ba07130f",
+                "size": 371492
+              }
+            ]
+          }
+        },
+        "authorName": "xarantolus",
+        "name": {
+          "en-US": "Offline HN"
+        },
+        "summary": {
+          "en-US": "Hacker News Client with offline caching of pages"
+        },
+        "description": {
+          "en-US": "Offline HN is an unofficial <a href=\"https://news.ycombinator.com\">Hacker News</a> reader that downloads stories, comments and linked articles on Wi-Fi, so you can read them offline.\n\n<b>Features</b>\n\n- Top, Best, Ask and Show feeds with search\n- Collapsible comment threads\n- Saved copies of linked articles, with ads and cookie banners removed\n- Background updates, by default only on Wi-Fi and while charging\n- Swipe between feeds and stories, hide read stories\n\n<b>Limitations</b>\n\n- Read-only: no login, voting or commenting\n- Pages behind logins or captchas can't be saved, video links are skipped\n\nThe app connects to the Hacker News API, Algolia, the linked websites and filter list hosts, so it's labeled with \"NonFreeNet\".\n\nThis app is significantly vibe-coded / created using LLMs. Most of its code has not been thoroughly reviewed by a human.\n\nOffline HN is not affiliated with or endorsed by Y Combinator.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.xarantolus.offlinehn/en-US/icon_FEWOdPwBlwQjqOFUPilMkEehO2qNL8V3QaCmZbOtEf4=.png",
+            "sha256": "14458e74fc01970423a8e1543e294c9047a13b6a8d2fc57741a0a665b3ad11fe",
+            "size": 42249
+          }
+        },
+        "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+      },
+      "versions": {
+        "ca71ef99ad5d477b8f559321ecff3d002557617849e13f7decbd290a57cbc3c8": {
+          "added": 1793515415000,
+          "file": {
+            "name": "/offline-hn_v0.7.0.apk",
+            "sha256": "ca71ef99ad5d477b8f559321ecff3d002557617849e13f7decbd290a57cbc3c8",
+            "size": 76454292
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.7.0",
+            "versionCode": 18,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "ecc2f4971db46cf8740824e31813dd476efff74f3ca3143201a78e3a64c922fa": {
+          "added": 1793515414000,
+          "file": {
+            "name": "/offline-hn_v0.6.1.apk",
+            "sha256": "ecc2f4971db46cf8740824e31813dd476efff74f3ca3143201a78e3a64c922fa",
+            "size": 76065549
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.6.1",
+            "versionCode": 16,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "83fa10ab581f021377cb04301c308f515e32514e61fd12a54a5cafb0311a1d39": {
+          "added": 1793515414000,
+          "file": {
+            "name": "/offline-hn_v0.6.0.apk",
+            "sha256": "83fa10ab581f021377cb04301c308f515e32514e61fd12a54a5cafb0311a1d39",
+            "size": 75950865
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.6.0",
+            "versionCode": 15,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "013e08521741070d8f4cff549348386ea2b531c1d66517c9c9168012b243762a": {
+          "added": 1793515414000,
+          "file": {
+            "name": "/offline-hn_v0.5.2.apk",
+            "sha256": "013e08521741070d8f4cff549348386ea2b531c1d66517c9c9168012b243762a",
+            "size": 75868941
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.5.2",
+            "versionCode": 14,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "003047b8acf0994b91e677573e6623c6674819f8b463e7c5e19bb442246e1f18": {
+          "added": 1793515413000,
+          "file": {
+            "name": "/offline-hn_v0.5.1.apk",
+            "sha256": "003047b8acf0994b91e677573e6623c6674819f8b463e7c5e19bb442246e1f18",
+            "size": 75868961
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.5.1",
+            "versionCode": 13,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "1a4a385f23fbc1c6ec550df2d5cfcb0f4c6f9f7f92343eaf9e6c21b5e7b963bf": {
+          "added": 1793515413000,
+          "file": {
+            "name": "/offline-hn_v0.4.5.apk",
+            "sha256": "1a4a385f23fbc1c6ec550df2d5cfcb0f4c6f9f7f92343eaf9e6c21b5e7b963bf",
+            "size": 75836197
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.4.5",
+            "versionCode": 11,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "170b346e16a413b39531eca5ae5de997c2f514f9b892cb79691cfc16bbf6a9cd": {
+          "added": 1793515412000,
+          "file": {
+            "name": "/offline-hn_v0.4.4.apk",
+            "sha256": "170b346e16a413b39531eca5ae5de997c2f514f9b892cb79691cfc16bbf6a9cd",
+            "size": 76147493
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.4.4",
+            "versionCode": 10,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "441c89e52fd4865e75157b9d74b95b2bcbcade3fd6a7e209c23caf0d044e639c": {
+          "added": 1793515412000,
+          "file": {
+            "name": "/offline-hn_v0.4.3.apk",
+            "sha256": "441c89e52fd4865e75157b9d74b95b2bcbcade3fd6a7e209c23caf0d044e639c",
+            "size": 76147493
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.4.3",
+            "versionCode": 9,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "716defeff1a7529deaba236766ad6e9e0e21bf54a8e3c68d506a608babf018e5": {
+          "added": 1793515411000,
+          "file": {
+            "name": "/offline-hn_v0.4.2.apk",
+            "sha256": "716defeff1a7529deaba236766ad6e9e0e21bf54a8e3c68d506a608babf018e5",
+            "size": 76147493
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.4.2",
+            "versionCode": 8,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "3b4188ed8ae9bdc97f19df359e96b4984bd2e32bd4589f6db4530f2b63e06cc7": {
+          "added": 1793515411000,
+          "file": {
+            "name": "/offline-hn_v0.4.1.apk",
+            "sha256": "3b4188ed8ae9bdc97f19df359e96b4984bd2e32bd4589f6db4530f2b63e06cc7",
+            "size": 76344029
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.4.1",
+            "versionCode": 7,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "393a05e6748dfc26ff46ddb3ffce72372cee54088532cb709154061658155719": {
+          "added": 1793515410000,
+          "file": {
+            "name": "/offline-hn_v0.4.0.apk",
+            "sha256": "393a05e6748dfc26ff46ddb3ffce72372cee54088532cb709154061658155719",
+            "size": 76344029
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.4.0",
+            "versionCode": 6,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "4e0087bf8fb2cda74458cdd8d44fff4f13ded58cab1f479147188095380290bf": {
+          "added": 1793515410000,
+          "file": {
+            "name": "/offline-hn_v0.3.1.apk",
+            "sha256": "4e0087bf8fb2cda74458cdd8d44fff4f13ded58cab1f479147188095380290bf",
+            "size": 75983373
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.3.1",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "3cbe929d34014fdd074b8022220216c5389f9e1395e9b52163d9c9a625c2cf3d": {
+          "added": 1793515409000,
+          "file": {
+            "name": "/offline-hn_v0.3.0.apk",
+            "sha256": "3cbe929d34014fdd074b8022220216c5389f9e1395e9b52163d9c9a625c2cf3d",
+            "size": 75868689
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.3.0",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "6907b1692ca31c27047cdf597bfc12a9931534da333f108a716c65f1de888326": {
+          "added": 1793515409000,
+          "file": {
+            "name": "/offline-hn_v0.2.1.apk",
+            "sha256": "6907b1692ca31c27047cdf597bfc12a9931534da333f108a716c65f1de888326",
+            "size": 75110316
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.2.1",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "59f852a2f114582fb0bb7ab53fdd287e7b3e543f870dd656751cd60278a13172": {
+          "added": 1793515408000,
+          "file": {
+            "name": "/offline-hn_v0.2.0.apk",
+            "sha256": "59f852a2f114582fb0bb7ab53fdd287e7b3e543f870dd656751cd60278a13172",
+            "size": 75110316
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.2.0",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
+        "49fd65d3b02a65288bb7f79419eac03f11edaa3b9125f636228f13051548f45e": {
+          "added": 1793515408000,
+          "file": {
+            "name": "/offline-hn_v0.1.0.apk",
+            "sha256": "49fd65d3b02a65288bb7f79419eac03f11edaa3b9125f636228f13051548f45e",
+            "size": 74864232
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
           }
         }
       }

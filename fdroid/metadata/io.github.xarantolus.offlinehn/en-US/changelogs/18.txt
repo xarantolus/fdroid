@@ -1,0 +1,7 @@
+- Write the README, with screenshots and the LLM warning
+- Release 0.7.0
+- Apply procedural filter rules with Brave's own page script
+- Ship four more general filter lists: newsletters, social media, annoyances and login walls
+- Release 0.6.2
+- Let the first update wait for a charger like every other automatic one
+- Find cargo in ~/.cargo/bin even when it is not on PATH
