@@ -1,0 +1,2 @@
+- Release 0.29.0
+- Take read marks and sync times from the server's messages, not the phone clock
