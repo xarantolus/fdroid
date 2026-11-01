@@ -1,0 +1,5 @@
+- Release 0.27.1
+- Delay the spinner on every full-area load of local data
+- Release 0.27.0
+- Fade the channel list between states and delay its spinner
+- Share one run-container.sh layout with the other app repos
