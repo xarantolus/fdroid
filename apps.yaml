@@ -1,6 +1,9 @@
 notality:
   git: https://github.com/xarantolus/notality
   name: "Notality"
+  # The latest APK has no raster launcher icon for fdroid to extract,
+  # so this one is used instead.
+  icon: assets/icon/Icon.png
   description: |
     Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.
 
