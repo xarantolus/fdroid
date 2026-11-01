@@ -1,0 +1,3 @@
+- Restore the foundation import the probe's @immutable needs
+- Release 0.28.0
+- Allow plain http servers in every build
