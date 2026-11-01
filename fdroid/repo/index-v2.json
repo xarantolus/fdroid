@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1793515439000,
+    "timestamp": 1793516736000,
     "categories": {
       "Forum": {
         "name": {
@@ -1640,6 +1640,13 @@
         },
         "description": {
           "en-US": "Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.\n\n<b>Features</b>\n\n- Create, edit, delete and reorder notes\n- Automatic dark/light mode depending on the system-wide setting\n- Import/Export your notes to save them externally\n- Localization for English and German\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.xarantolus.notality/en-US/icon_cRxo_tbd9b_U71eqejr171tzNtqygaHTncWFl4I0DkU=.png",
+            "sha256": "711c68fed6ddf5bfd4ef57aa7a3af5ef5b7336dab281a1d39dc5859782340e45",
+            "size": 13886
+          }
         },
         "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
       },

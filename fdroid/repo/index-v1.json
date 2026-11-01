@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793515439000,
+    "timestamp": 1793516736000,
     "version": 20002,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -65,6 +65,7 @@
       "lastUpdated": 1789994748000,
       "localized": {
         "en-US": {
+          "icon": "icon_cRxo_tbd9b_U71eqejr171tzNtqygaHTncWFl4I0DkU=.png",
           "phoneScreenshots": [
             "1.png",
             "2.png",

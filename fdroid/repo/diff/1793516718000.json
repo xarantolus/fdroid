@@ -1,0 +1,18 @@
+{
+  "repo": {
+    "timestamp": 1793516736000
+  },
+  "packages": {
+    "io.github.xarantolus.notality": {
+      "metadata": {
+        "icon": {
+          "en-US": {
+            "name": "/io.github.xarantolus.notality/en-US/icon_cRxo_tbd9b_U71eqejr171tzNtqygaHTncWFl4I0DkU=.png",
+            "sha256": "711c68fed6ddf5bfd4ef57aa7a3af5ef5b7336dab281a1d39dc5859782340e45",
+            "size": 13886
+          }
+        }
+      }
+    }
+  }
+}
