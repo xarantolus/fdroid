@@ -1,0 +1,4 @@
+- Release 0.32.0
+- Forward and report messages from the message menu
+- Show a message's edit history from (edited), with restore for the author
+- Generate the edit history, restore, post ids and content flagging calls
