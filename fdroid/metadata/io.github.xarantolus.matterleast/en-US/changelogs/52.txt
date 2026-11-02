@@ -1,0 +1,5 @@
+- Release 0.36.0
+- Sort an import
+- Open the edit history at once with a progress bar while it loads
+- Share one failed-action snackbar, prompt dialog and failed-load state
+- Slide the typing line up as a tinted bar and back down when nobody types
