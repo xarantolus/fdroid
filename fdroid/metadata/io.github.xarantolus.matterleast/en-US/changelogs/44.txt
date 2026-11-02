@@ -1,0 +1,3 @@
+- Release 0.30.0
+- Offer no manual sorting for direct messages
+- Add sort, mute, recent-message limit and mark-as-read to the category menu
