@@ -1,0 +1,13 @@
+- Release 0.31.0
+- Keep keyboard focus out of the app while the terms of service are shown
+- Regenerate the account providers
+- Show session start dates, name unknown devices, and read a missing two-factor flag as off
+- Answer the terms of service with the field names the server reads
+- Generate the terms of service answer as the server reads it
+- Add active sessions and two-factor authentication to Settings
+- Ask the user to accept the server's terms of service
+- Sign in through SSO with a challenge and a code exchange when the server answers one
+- Reset a forgotten password from the sign-in screen
+- Generate the session revoke and two-factor endpoints
+- Compress native libraries in the APK
+- Build the release APK for 64-bit ARM only
