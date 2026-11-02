@@ -1,0 +1,5 @@
+- Release 0.33.0
+- Let a long press on a rail team open its menu instead of the tooltip
+- Add the generated models for the new team and group calls
+- Mark teams read, channel admins, invite links and emails, group message search and conversion
+- Generate team search, invite, group search and read calls, fix three request shapes
