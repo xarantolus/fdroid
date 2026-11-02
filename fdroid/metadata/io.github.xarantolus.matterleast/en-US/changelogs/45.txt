@@ -1,0 +1,2 @@
+- Release 0.30.1
+- Show what failed when a server's answer can't be read, and log its stack
