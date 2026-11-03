@@ -1,0 +1,3 @@
+- Release 0.38.1
+- Open the message menu at once, with a short popup animation on desktop
+- Test that Ctrl+K opens the switcher with nothing focused on Linux and Windows
