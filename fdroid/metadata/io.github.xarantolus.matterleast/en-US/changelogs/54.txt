@@ -1,0 +1,3 @@
+- Release 0.38.0
+- Let a touchpad swipe past the first or last page of a page view go back or forward
+- Give a message's text selection area an empty menu so a slow right click no longer throws
