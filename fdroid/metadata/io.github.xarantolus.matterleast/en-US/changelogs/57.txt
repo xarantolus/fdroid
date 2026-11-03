@@ -1,0 +1,8 @@
+- Regenerate the unread count providers
+- Release 0.39.0
+- Show unread messages without mentions on the tray icon too
+- Render a red mention dot and a blue unread dot for the tray icon
+- Note in the README that the desktop app doesn't set away on inactivity
+- Release 0.38.2
+- Centre the composer's buttons on a one-line field on desktop
+- Place the desktop switcher lower and make it shorter
