@@ -1,0 +1,5 @@
+- Release 0.37.0
+- Check permissions through the web app's system, team and channel cascade
+- Share the post row builder and a themed pumpApp helper between tests
+- Open test servers and sessions through startServerSession
+- Share the user-to-person mapping, lenient JSON helpers and generic list converters; drop dead code
