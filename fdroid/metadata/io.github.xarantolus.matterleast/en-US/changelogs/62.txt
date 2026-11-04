@@ -1,0 +1,6 @@
+- Release 0.41.0
+- Keep a button as wide as its label
+- Make Threads, Drafts and Agents history entries and check where the user is before Back steps
+- Add alice and the crew to the seeded Integrations channel
+- Render Slack mrkdwn, context blocks, FactSets and URL buttons; show action failures under the control, search long menus, open tapped images
+- Allow underscores and dashes in inline action ids; show Block Kit and cards only when the server has blocks on
