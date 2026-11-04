@@ -1,0 +1,4 @@
+- Release 0.41.2
+- Center Show more and Show less
+- Stop the composer caret blinking after 10 seconds idle on desktop
+- Align Show more and Show less to the end side
