@@ -1,0 +1,2 @@
+- Release 0.41.5
+- Show a thumbnail for every image in the composer and open it in the gallery
