@@ -1,0 +1,2 @@
+- Release 0.41.7
+- Centre the composer buttons on the one-line field
