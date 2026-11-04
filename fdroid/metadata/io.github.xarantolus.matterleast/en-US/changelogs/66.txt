@@ -1,0 +1,7 @@
+- Release 0.41.4
+- Check the place switch waits instead of watching panes
+- Type the list in the place switch test
+- Open huge text files in the code view a chunk of lines at a time
+- Search private channels too when browsing, as the web app does
+- Make the custom status tooltip test independent of the time zone
+- Switch places only once the remembered conversation can open
