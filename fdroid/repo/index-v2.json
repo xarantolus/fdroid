@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1793805523000,
+    "timestamp": 1793806626000,
     "categories": {
       "Forum": {
         "name": {
@@ -61,7 +61,7 @@
           "Internet",
           "Messaging"
         ],
-        "lastUpdated": 1793805468000,
+        "lastUpdated": 1793806587000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/xarantolus/matterleast",
         "screenshots": {
@@ -130,6 +130,67 @@
         "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
       },
       "versions": {
+        "d60906d9d2f6ad80f654416ec55c0d041042f2839c78eea8f064bf3bb850a008": {
+          "added": 1793806587000,
+          "file": {
+            "name": "/matterleast_v0.41.6.apk",
+            "sha256": "d60906d9d2f6ad80f654416ec55c0d041042f2839c78eea8f064bf3bb850a008",
+            "size": 31017093
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "0.41.6",
+            "versionCode": 68,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "io.github.xarantolus.matterleast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
         "51cf51a16e447500a0d39b1e2839cd57c2ff8a6962217eec327cc6f1002aa4fb": {
           "added": 1793805468000,
           "file": {
