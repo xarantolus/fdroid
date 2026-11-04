@@ -1,0 +1,2 @@
+- Release 0.39.2
+- Offer to message bots from their profile, which also gives it the full width
