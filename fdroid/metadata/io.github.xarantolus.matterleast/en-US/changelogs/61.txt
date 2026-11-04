@@ -1,0 +1,15 @@
+- Release 0.40.1
+- Close the gallery with a back swipe on the touchpad at its first picture
+- Fade the messages in when a conversation opens
+- Release 0.40.0
+- Fill the window when zoomed in, also under loose constraints
+- Always show the header of a message only you can see, on a light tint
+- Browse channels lists joined channels and, for admins, private ones
+- Show more of a bot layout instead of cutting it silently
+- Allow 64-character nicknames and open text files of any size
+- Drop the reaction cap and let own messages be marked unread
+- Offer to message bots and open the profile from a webhook post's name
+- Show bots and yourself in the switcher's people
+- Generate the call for a team's private channels
+- Let the desktop composer grow to a third of the window
+- List bots in people search and the switcher like any account
