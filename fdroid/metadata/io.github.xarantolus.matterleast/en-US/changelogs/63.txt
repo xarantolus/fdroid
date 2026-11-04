@@ -1,0 +1,4 @@
+- Release 0.41.1
+- Test the composer caret stops blinking when the window loses focus
+- Drop an unneeded import from the window visibility test
+- Stop the composer caret blinking while the window has no focus
