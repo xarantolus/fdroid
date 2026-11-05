@@ -1,0 +1,3 @@
+- Release 0.43.1
+- A deleted root post takes its replies and thread with it
+- Create the desktop binding before anything initialises the default one
