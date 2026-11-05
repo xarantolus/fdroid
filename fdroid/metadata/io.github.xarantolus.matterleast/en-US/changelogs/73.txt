@@ -1,0 +1,3 @@
+- Release 0.43.2
+- A thread whose first message is gone shows it deleted and isn't reopened at launch
+- An unread channel scrolled far above no longer shows as below
