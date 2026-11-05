@@ -1,0 +1,3 @@
+- Regenerate provider code
+- Release 0.43.3
+- Fetch everyone a conversation or Home shows that isn't stored, not only message authors
