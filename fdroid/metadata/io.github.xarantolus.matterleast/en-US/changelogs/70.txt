@@ -1,0 +1,22 @@
+- Release 0.42.0
+- Load the remembered Home chip, search tab and threads tab before the first frame
+- Tests that bring their own app database pass it to pumpApp
+- Remember code wrap, the Home chip, the search tab and the threads tab across views and restarts; search Files keeps rows in place when a server answers late
+- Compare the thumb's height with a tolerance
+- Name the download fraction apart from the cache manager's progress
+- Scrollbar thumb keeps its size, download progress survives a missing size, a failing network source counts as unknown, resampled desktop pointer input
+- Append results from servers that answer late below the rows already shown
+- Note the Linux 60 Hz frame timer under limitations
+- Give the Files list test a signed-in server for the search to ask
+- Profile builds: widget names are opt-in, Linux keeps the whole timeline
+- Keep deactivated rows out of the anchored list's measurements
+- Pass the host GPU into the dev container and add Weston for GPU-backed desktop runs
+- Sort an import
+- Split message search from the switcher: the search button and Ctrl+Shift+F open message search, Ctrl+K only finds channels and people
+- Search all servers from Home and only the open server from inside one
+- Drop an unneeded import in the profile recorder
+- Add a profile-build recorder: timeline and frame export, gated to profile builds
+- Drop a needless null assertion in the gallery test
+- Drag the gallery pages live with a touchpad swipe
+- Make reactions larger: 18 px on desktop, 22 px on phones
+- Keep one channel list width with or without a thread pane
