@@ -1,0 +1,12 @@
+- Release 0.43.0
+- The open channel isn't rebuilt when a message of it is asked for
+- Evict gallery pictures from known items, key list images by file
+- Sort test imports
+- Asking again for a message of the open conversation shows it
+- Evict the gallery's full-size pictures when it closes
+- Reconnect catch-up: light resync in the foreground, stored posts for live notification checks, hidden conversations shown again by posts in the background
+- Dump the traffic counts without a timer
+- Drop redundant imports
+- Cut background follow-up requests: catch-up after a gap, no stats or profile fetches without the UI, no typing or reaction events, cached notification avatars
+- Size the image cache by screen, release decoded images when hidden, evict gallery images on close
+- Move the local test server to ports 8165-8167
