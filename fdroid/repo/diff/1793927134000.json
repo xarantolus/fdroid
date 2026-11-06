@@ -1,11 +1,11 @@
 {
   "repo": {
-    "timestamp": 1793904355000
+    "timestamp": 1793927152000
   },
   "packages": {
     "io.github.xarantolus.matterleast": {
       "versions": {
-        "fad41c0f917e0b27e088cb3ab60a6939cb51219d6fda3dcec691371d5814afee": {
+        "0f5978940582b52c391e4d0b4842cf69ecd313d4079811cf599881fc3502d2b5": {
           "releaseChannels": null
         }
       }

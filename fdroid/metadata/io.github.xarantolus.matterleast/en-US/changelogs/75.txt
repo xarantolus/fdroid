@@ -1,0 +1,16 @@
+- Release 0.44.0
+- Test the channel info admin actions by the user's rights
+- A line telling several system messages has no menu
+- System messages offer Delete in the message menu; unread and saved Home rows have options
+- A link followed into another team keeps the conversation it came from
+- SSO finishes when the sign-in link goes through Android's app chooser
+- A ~channel link stays in its team
+- The typing line names someone once their profile arrives
+- Show a tall jumped-to message from its top, shrink the phone gap above the composer, and reorder the channel list whenever it is idle
+- Test server: the second server offers GitLab sign-in for SSO tests
+- Who reacted names people whose profile arrives after the sheet opens
+- Back returns to the conversation a link was followed from
+- Schedule a message from the + menu, and by right-click on Send on desktop
+- Direct and group messages act in the current team
+- Picking an emoji brings the keyboard back only when it was up
+- One writer per database: the UI waits for the stay-connected engine to let go, and the periodic check skips while the app is open
