@@ -1,0 +1,2 @@
+- Release 0.8.1
+- Build the release APK for 64-bit ARM only

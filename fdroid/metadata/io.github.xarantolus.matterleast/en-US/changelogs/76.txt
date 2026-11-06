@@ -1,0 +1,12 @@
+- Release 0.45.0
+- On a phone, a tap on the rail shows the place's list, not its last conversation
+- Test the same small gap above the composer everywhere
+- Keep the same small gap above the composer on phones as on desktop, and draw the scheduled notice in the composer's colour
+- Keep the server's time for my own reaction once it echoes back
+- Ask before a sign-in link from another app signs in
+- Regenerate code and format a test
+- Sign in with SSO through a Custom Tab of the app's own task, magic links and the full browser
+- Place my reaction after the earlier ones by the server's times
+- Ask for server times instead of the phone clock
+- Swiping a closed conversation back opens it where it was left
+- Signing out removes the server from the device
