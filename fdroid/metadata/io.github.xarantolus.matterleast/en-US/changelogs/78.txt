@@ -1,0 +1,31 @@
+- Release 0.47.0
+- Retake README screenshots for 0.47.0
+- Make the README screenshot script wait out system dialogs and find the current UI
+- Regenerate the conversation provider hash
+- Hold the first frame until link pictures are decided, anchor Ctrl+Shift+E and desktop suggestions to their controls, wait for the pasted thumbnail in its test
+- Run a read mark again when it is asked for while one is in flight
+- Count the reader at the newest message only once the list says so
+- Regenerate the conversation provider and sort test imports
+- Expect Esc to leave the channel open when it closes the thread
+- Regenerate the notification providers
+- Mark a channel read when its newest message is reached after newer pages load or the window regains focus
+- Keep the arrow cursor on the window buttons, as caption buttons do
+- Run as many test files at once as the runner has processors
+- Notify with the system notification while recents or the shade cover the app
+- Type the fake file picker's callback
+- Give the shortcut tests the app theme and room for every row
+- Make the desktop build behave like a desktop program in more places
+- Pass the mention position in the mobile data test
+- Keep the Flatpak's keyring access
+- Pass the tap position to the profile card and size who-reacted by its content
+- Secure each app folder once per path, so tests with other folders still work
+- Close the desktop security findings in file opening, caches, SSO and video
+- Drop an unneeded import from the reactions test
+- Keep the mobile data test overrides inside the tests
+- Add a Mobile data page with switches for images, GIFs and link pictures, and respect Android Data Saver
+- Open the profile card at the mention that was tapped
+- Open desktop popups next to what opened them, not as centred dialogs
+- Drop the Flatpak's keyring and NetworkManager access
+- Leave out native libraries of ABIs the build wasn't asked for
+- Show an in-app banner for a new message while the app is in front
+- Keep notifying after the app is swiped away from the recent apps
