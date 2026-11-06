@@ -1,0 +1,11 @@
+- Release 0.46.0
+- Play animated pictures on desktop only while the window has the focus
+- Set the mimalloc switch once
+- On desktop an animated picture in a message plays only while the pointer is over it, so an idle window draws no frames
+- Build libmpv into the Flatpak, cache its build state in CI and give the desktop lane a sound sink
+- Close the stream in the Linux video player test
+- Play videos inline on Linux with libmpv, and tell the person when Open with finds no app
+- Offer to expand a channel header only when its line cuts it short
+- Name who reacted in the reaction tooltip on desktop
+- Open web page attachments in an app instead of showing their source
+- Open an image cache again when Android cleared it while the app ran
