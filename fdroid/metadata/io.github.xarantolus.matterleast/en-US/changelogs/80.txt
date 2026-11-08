@@ -1,0 +1,6 @@
+- Release 0.48.1
+- Render with Impeller again on Linux
+- Render with Skia instead of Impeller on Linux
+- Keep everything still while the desktop window is in the background
+- Keep the app's data out of iCloud backups, as on Android
+- Declare the app's privacy manifest for iOS
