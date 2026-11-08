@@ -1,0 +1,62 @@
+- Upload main to TestFlight every two months, before builds expire
+- Pass the background check delay as an NSNumber
+- Register the iOS background check before launching finishes
+- Release 0.48.0
+- Note in CLAUDE.md what keeps the iOS build working
+- Stop listing the signing identities in the log
+- Build the Android APK on manual runs too, signed only on main
+- Import the signing certificate with its private key and list the identities
+- Use the iOS controls, dialogs, action sheet and page transition on iOS
+- Archive iOS with automatic signing and leave the distribution identity to the export
+- Rebuild the channel list, not the window, when the list or sync state changes
+- Read the Apple team and API key ids from the release secrets
+- Sign and upload in the iOS job instead of building the app a second time
+- Prepare the iOS project without looking for a certificate; the archive signs it
+- Make an emoji's tooltip only when the mouse first comes over it
+- Use the bundle id me.creaxx.matterleast for iOS and mention TestFlight
+- Sign the iOS app and upload it to TestFlight for releases and on request
+- Test the iOS notification settings and the share copy progress on each phone
+- Remove the temporary simulator job
+- Launch the new iOS bundle id in the temporary simulator job
+- Use me.creaxx.matterleast as the iOS bundle id, with the Share Extension at .share and the App Group following it
+- Hand the simulator's share over on a fresh launch in the temporary job
+- Open the app from the Share Extension with extension-safe code, say what iOS offers in the notifications prompt and the README, and regenerate providers
+- Swap the temporary project job for a temporary simulator launch
+- Take shares with an own plugin on Android and through a Share Extension on iOS, and give iOS Low Data Mode, share-sheet suggestions and a paced background check
+- Build for iOS after the check and only for releases or when asked, like the desktop builds
+- Also add DeviceStatus.swift to the Runner target in the temporary script
+- Add a temporary job that adds the Share Extension target to the Xcode project
+- Put the cursor in the emoji search on phones too, and put the keyboard away when the emoji are dragged
+- Repaint only the emoji when an animated custom emoji shows its next frame
+- Wait for the membership as well as the roles after a channel scheme change
+- Remove the temporary Xcode Cloud trial
+- Integrate the pods into the Xcode project, as pod install does
+- TEMPORARY: rerun the Xcode Cloud trial
+- Prepare the Xcode Cloud build without a signing certificate
+- Include the pods' build settings, as pod install adds them
+- Regenerate the Data Saver provider
+- TEMPORARY: try the Xcode Cloud steps and a simulator launch
+- Build the unsigned iOS app on every push and attach it to releases
+- Build for iOS as a phone without Android's own services
+- Render a square iOS app icon from the launcher icon
+- Put the cursor in the composer when a direct or group message opens on desktop
+- Format each message preview once while it keeps being shown
+- Read the time zone once per day when building conversation rows
+- Start the app before the window is sized on Windows
+- Write down how tests wait, find things and use the shared harness
+- Tests wait on what they need instead of real time, read through the views screens use, share seeds, and judge the highlight whenever it shows
+- Keep a user's highlight words from sign-in and user updates
+- Settle remaining tests on idleness, close server harnesses after failures, answer empty shapes by default and assert what the user sees
+- Page the file list's server search at its end and test the gallery sender
+- Sort the preview test imports
+- Sort an import in the preview test
+- Read a file sender's name without a provider that disposes under the read
+- Publish chats as Android conversation shortcuts for notifications, Direct Share and the launcher
+- Show a channel's files as a media grid and rich rows under pinned date headers
+- Mark the reader's mention and highlight words in messages and preview the draft in the composer
+- Settle server-backed widget tests on idleness instead of fixed waits
+- Leave a small gap above a message's reactions
+- Keep the emoji picker open after a Shift-click on desktop, adding each emoji to the message
+- Accept capitals in new custom emoji names, as the server does
+- Look up custom emoji with capital letters and leave channel name length to the server
+- Search the server for an empty query once a search is submitted
