@@ -1,0 +1,2 @@
+- Release 0.9.1
+- Stop the progress notification getting stuck

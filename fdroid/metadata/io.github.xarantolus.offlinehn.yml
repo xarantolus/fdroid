@@ -5,8 +5,8 @@ Categories:
     - Internet
     - News
     - Reading
-CurrentVersion: 0.8.1
-CurrentVersionCode: 20
+CurrentVersion: 0.9.1
+CurrentVersionCode: 22
 Description: |
     Offline HN is an unofficial <a href="https://news.ycombinator.com">Hacker News</a> reader that downloads stories, comments and linked articles on Wi-Fi, so you can read them offline.
 
