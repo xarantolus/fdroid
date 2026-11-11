@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1794306658000,
+    "timestamp": 1794394727000,
     "version": 20002,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -21,8 +21,8 @@
         "Internet",
         "Messaging"
       ],
-      "suggestedVersionName": "0.48.1",
-      "suggestedVersionCode": "80",
+      "suggestedVersionName": "0.49.0",
+      "suggestedVersionCode": "81",
       "description": "Matterleast is an unofficial Android client for <a href=\"https://mattermost.com/\">Mattermost</a> servers that tries to have a feel closer to Discord.\n\n<b>Features</b>\n\n- Discord-style feel and navigation: you can swipe between chats, swipe on messages to react/reply etc.\n- One Home inbox across all servers for unread messages, mentions, threads and saved messages\n- Notifications without Google's push service via a background job\n- Tablet layout in landscape\n- Different theming options: Matterleast colours, your Mattermost theme or Material You\n\nOther (obvious) features that exist: threads, reactions, file previews, sharing, search, custom emojis, bots, channel management and more.\n\n<b>Limitations</b>\n\n- Calls, Playbooks and Boards are not supported, nor are Apps framework forms and message translation.\n- Notifications don't go through Mattermost's push proxy, so new messages arrive when the app checks (about every 15 minutes) unless \"Stay connected\" is on.\n\nTo use this app, you need the address of a Mattermost server and an account on it.\nThe app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.\nSince these services aren't necessarily free software, it's labeled with \"NonFreeNet\".\n\nThis app is significantly vibe-coded / created using LLMs. Most of its code has not been thoroughly reviewed by a human.\n\nMatterleast is not affiliated with or endorsed by Mattermost, Inc. Mattermost is a trademark of Mattermost, Inc.\n",
       "license": "Apache-2.0",
       "name": "Matterleast",
@@ -30,7 +30,7 @@
       "summary": "Third-party Mattermost client with a Discord-like feel. Not affiliated with o...",
       "added": 1793088647000,
       "packageName": "io.github.xarantolus.matterleast",
-      "lastUpdated": 1794169000000,
+      "lastUpdated": 1794394671000,
       "localized": {
         "en-US": {
           "icon": "icon_emU1g0kwZUZPFoMQZFU0GppFryIYPf1bNkrzpPSw5U4=.png",
@@ -44,7 +44,7 @@
             "7.jpg",
             "8.jpg"
           ],
-          "whatsNew": "- Release 0.48.1\n- Render with Impeller again on Linux\n- Render with Skia instead of Impeller on Linux\n- Keep everything still while the desktop window is in the background\n- Keep the app's data out of iCloud backups, as on Android\n- Declare the app's privacy manifest for iOS\n"
+          "whatsNew": "- Release 0.49.0\n- Paste tab-indented code as text, not as a table\n- Lighten the dark theme's page to a VS Code-like grey and lift sheets, panels and muted text with it\n- Continue lists, wrap selections, indent list items with Tab and paste spreadsheet rows as tables in the composer\n- Paste with Ctrl+V in the link-over-selection test instead of invoking the intent on an inner widget\n- Turn a URL pasted over selected composer text into a markdown link\n- Label only this device as you in a call, an"
         }
       }
     },
@@ -155,6 +155,89 @@
   ],
   "packages": {
     "io.github.xarantolus.matterleast": [
+      {
+        "added": 1794394671000,
+        "apkName": "matterleast_v0.49.0.apk",
+        "hash": "05071e52fe6b274484359bd97c2566bda3585bc2fb7f21adb58b2057b1234b43",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "io.github.xarantolus.matterleast",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 37997847,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "io.github.xarantolus.matterleast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            30
+          ]
+        ],
+        "versionCode": 81,
+        "versionName": "0.49.0"
+      },
       {
         "added": 1794169000000,
         "apkName": "matterleast_v0.48.1.apk",

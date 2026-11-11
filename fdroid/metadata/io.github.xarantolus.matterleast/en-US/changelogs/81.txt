@@ -1,0 +1,64 @@
+- Release 0.49.0
+- Paste tab-indented code as text, not as a table
+- Lighten the dark theme's page to a VS Code-like grey and lift sheets, panels and muted text with it
+- Continue lists, wrap selections, indent list items with Tab and paste spreadsheet rows as tables in the composer
+- Paste with Ctrl+V in the link-over-selection test instead of invoking the intent on an inner widget
+- Turn a URL pasted over selected composer text into a markdown link
+- Label only this device as you in a call, and draw emoji in the emoji font
+- Say plainly that a call is over and let the bar's status wrap at large text
+- Rework the Calls UI: a docked call panel on desktop, a fixed bar on phones, a clearer call screen, custom emoji reactions
+- Resume the session's own connection when the calls socket reconnects
+- Keep the connection id and sequence a calls socket was opened to resume
+- Make ICE restarts real, show the call as connected again after a precaution, and say the connection was lost for a call that had been up
+- Join LiveKit calls on Linux without NetworkManager by reading connectivity as unknown
+- Treat a call as over when its last person leaves, as the plugin sends no call_end then
+- Fetch the Calls settings and calls again every 20 minutes while the plugin is there
+- Use the plain ended reason in the LiveKit call session
+- Test the call bar at three times the text size so a fixed bar height fails
+- Publish the LiveKit microphone silent, then mute it, so the track exists to publish
+- Drop an unneeded import
+- Word an ended call like the official app
+- Keep the mute shortcut last in the list and test it on a desktop
+- Join calls over LiveKit when the Calls plugin is version 2 or later
+- Pick the microphone and speaker in a call on the desktop, mute with Ctrl+Shift+Space, and say in the window title that a call runs
+- Size the call bar from its content and say 'The call ended' unless we know who ended it
+- Sign every CI-built APK with the release key
+- Regenerate the call providers
+- Drop imports the shared call controller fake made unused
+- Add the call screen, the current-call bar, host controls, reactions and in-app incoming call banners
+- Start the call controller on the desktop
+- Join calls on the desktop with a choice of microphone and speaker
+- Let the desktop lane sign in to another server with DESKTOP_SERVER
+- Build every platform by default in a manual CI run
+- Keep the call alive through a flapping network: ICE restarts that wait for recovery, a checked socket, a timed reconnect that needs no hello, and a service that runs without the microphone
+- Let a lane sign in to another server through LANE_SERVER
+- Connect audio calls on phones: the calls socket, the WebRTC peer, mute, reconnect, ICE restart and the call service
+- Add the Calls wire framing, connection model and reconnect and ICE restart rules
+- Gate channel banners on the advanced licence alone, as the official app does
+- Show an ephemeral message without an author as a system line
+- Keep the report sheet's button above the keyboard
+- Add a bookmark's file with the app's own state, not the closed sheet's
+- Hide the plugin's text card under a call post
+- Keep text files and PDF text from leaving the app where the server only allows previews
+- Fail a persistent notification the server finds invalid at once instead of retrying
+- Upload a bookmark's file as a bookmark file
+- Drop the read-only default channel switch the server no longer sends
+- Show channel banners for any advanced licence, open and private channels only
+- Tell the user why an unsent message failed, and test the banners and persistent notifications
+- Drop the README claim that no Mattermost Mobile code is used
+- Show calls of the Calls plugin: call posts, a join banner, a call button and a list icon
+- Offer persistent notifications on urgent messages and confirm before sending them
+- Show the server's announcement and a channel's banner as one-line strips
+- Test the banner and persistent notification features and the banner colours
+- Read the banner and persistent notification settings, and store each channel's banner
+- Add the channel banner to the generated Channel model
+- Say in NOTICE that parts are adapted from Mattermost Mobile's source
+- Mount the test server's command responder from the main checkout
+- Say when the live connection has been down for a while in conversations, threads and Home
+- Read only channel ids when a team refresh checks for removed channels
+- Count a live post once when the channel list already included it
+- Keep newer sync state when an older answer arrives late
+- Add skipped tests for stale answers undoing newer sync state
+- Open a picture from the Files tab in its channel from the gallery menu
+- Make the channel scheme test's server answer consistently so the team refresh keeps the channel
+- Shorten the README's iOS section to the download, the limits and Apple's docs
