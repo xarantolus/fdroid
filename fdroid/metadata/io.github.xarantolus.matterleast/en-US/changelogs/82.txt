@@ -1,0 +1,13 @@
+- Release 0.50.0
+- Regenerate the post attribute providers
+- Take a stored draft only when its text changed, so a repeated row never brings back deleted text
+- Store the embed type enum under its regenerated name
+- Fill an empty open composer with a draft that arrives from another device
+- Forward to unjoined public channels, show and edit post attributes, ask for required channel attributes
+- Generate the property fields and values client, post attribute values and channel create attributes
+- Stack dialogs, add action buttons, submit buttons and refresh on return
+- Generate the dialog action endpoint
+- Check LiveKit room address, find the calls bot by its id, and limit peer reactions
+- Drop wall-clock limits from the timeout and offline tests
+- Show messages of only emoji large, typed or named, and draw typed emoji in the emoji font
+- Drop the wall-clock limit from the huge-file code screen test
