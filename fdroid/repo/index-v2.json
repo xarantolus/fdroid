@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1794394727000,
+    "timestamp": 1794564323000,
     "categories": {
       "Forum": {
         "name": {
@@ -4534,7 +4534,7 @@
           "News",
           "Reading"
         ],
-        "lastUpdated": 1794306636000,
+        "lastUpdated": 1794564277000,
         "license": "MIT",
         "sourceCode": "https://github.com/xarantolus/offline-hn",
         "screenshots": {
@@ -4593,6 +4593,62 @@
         "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
       },
       "versions": {
+        "8e04caf57ed66ef78e7064b8b9b38a20db55a821ea4c72f82d7b941abe6dbc51": {
+          "added": 1794564277000,
+          "file": {
+            "name": "/offline-hn_v0.10.0.apk",
+            "sha256": "8e04caf57ed66ef78e7064b8b9b38a20db55a821ea4c72f82d7b941abe6dbc51",
+            "size": 27504805
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.10.0",
+            "versionCode": 23,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "io.github.xarantolus.offlinehn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
         "68416aff8019221a567eaa885311de990fde1edb3b18c3018feff986d7ed3d75": {
           "added": 1794306636000,
           "file": {

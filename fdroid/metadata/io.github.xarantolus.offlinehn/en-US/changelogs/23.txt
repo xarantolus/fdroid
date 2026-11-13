@@ -1,0 +1,2 @@
+- Release 0.10.0
+- Pause automatic updates until a date, or until turned back on
