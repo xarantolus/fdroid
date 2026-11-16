@@ -1,0 +1,11 @@
+- Release 0.51.0
+- Space the start-up notice with the shared tokens and drop the repeated Try again
+- Show a failed or stalled start with Retry instead of a blank page, and stop start-up inputs from waiting forever
+- Let the gallery finish reading a pasted picture before the test closes the composer, which deletes the copy
+- Build the later-word pattern once per emoji ranking
+- Match the middle of names in mention and emoji suggestions, and type into the open thread's composer
+- Delete the pasted-image test folders after the last test, so a picture still decoding never fails the next one
+- Keep the first wheel turns after leaving the bottom from throwing the view a screen away
+- Tick task list boxes in messages the user may edit
+- Show the clock under the server settings and confirm an import
+- Read the 24-hour clock from the server and add settings export and import
