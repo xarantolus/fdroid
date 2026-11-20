@@ -1,0 +1,19 @@
+- Release 0.52.0
+- Keep the mouse wheel inside a conversation's range on desktop, so a thread never scrolls past its ends
+- Refetch other teams on a reconnect by comparing the server's counts with the stored channels and threads
+- Paint the whole page area when a page's content is shorter than the screen
+- Scroll with the right mouse button held, and keep going after release, on desktop
+- Say in the Stay connected notification that hiding it is safe
+- Offer Message on your own profile too, for notes to yourself
+- Name the new-message picker for what it does and offer it from the Direct messages menu
+- Make the Unread chip reach channels several categories away
+- Show signed-out servers in the rail, faded, and open their sign-in on tap
+- Make the dead-connection check test wait for the first ping
+- Offer Import settings on the first screen, before any server is added
+- Check the stay-connected sockets on an alarm and reconnect on a network switch
+- Move settings export and import to the top level of Settings
+- Resend a stuck send when the network returns, offer Send now on waiting posts, and drain the outbox in the background check
+- Test the real attach and catch-up path, and let the in-app notices take an injected delay
+- Rearm the in-app catch-up when a phone hides the app, and test the real attach path
+- Treat the first catch-up after start as history so notices only cover what arrives live
+- Stop a read thread's last mention from staying on the rail badge

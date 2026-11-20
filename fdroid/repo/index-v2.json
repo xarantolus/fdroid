@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1794844472000,
+    "timestamp": 1795197210000,
     "categories": {
       "Forum": {
         "name": {
@@ -61,7 +61,7 @@
           "Internet",
           "Messaging"
         ],
-        "lastUpdated": 1794844415000,
+        "lastUpdated": 1795197152000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/xarantolus/matterleast",
         "screenshots": {
@@ -130,6 +130,84 @@
         "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
       },
       "versions": {
+        "d9e7ef26651203b17dc81054a02b6502d434601fe429278d6b1fb95ac7b7353a": {
+          "added": 1795197152000,
+          "file": {
+            "name": "/matterleast_v0.52.0.apk",
+            "sha256": "d9e7ef26651203b17dc81054a02b6502d434601fe429278d6b1fb95ac7b7353a",
+            "size": 38067379
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.52.0",
+            "versionCode": 84,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE"
+              },
+              {
+                "name": "io.github.xarantolus.matterleast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.BLUETOOTH",
+                "maxSdkVersion": 30
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          }
+        },
         "23f6fc2b33940dc0f86b4a9a9372b45ab98b20439da3d4cda43a90226af01468": {
           "added": 1794844415000,
           "file": {

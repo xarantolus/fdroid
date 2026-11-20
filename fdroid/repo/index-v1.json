@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1794844472000,
+    "timestamp": 1795197210000,
     "version": 20002,
     "name": "Apps by xarantolus",
     "icon": "icon.png",
@@ -21,8 +21,8 @@
         "Internet",
         "Messaging"
       ],
-      "suggestedVersionName": "0.51.0",
-      "suggestedVersionCode": "83",
+      "suggestedVersionName": "0.52.0",
+      "suggestedVersionCode": "84",
       "description": "Matterleast is an unofficial Android client for <a href=\"https://mattermost.com/\">Mattermost</a> servers that tries to have a feel closer to Discord.\n\n<b>Features</b>\n\n- Discord-style feel and navigation: you can swipe between chats, swipe on messages to react/reply etc.\n- One Home inbox across all servers for unread messages, mentions, threads and saved messages\n- Notifications without Google's push service via a background job\n- Tablet layout in landscape\n- Different theming options: Matterleast colours, your Mattermost theme or Material You\n\nOther (obvious) features that exist: threads, reactions, file previews, sharing, search, custom emojis, bots, channel management and more.\n\n<b>Limitations</b>\n\n- Calls, Playbooks and Boards are not supported, nor are Apps framework forms and message translation.\n- Notifications don't go through Mattermost's push proxy, so new messages arrive when the app checks (about every 15 minutes) unless \"Stay connected\" is on.\n\nTo use this app, you need the address of a Mattermost server and an account on it.\nThe app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.\nSince these services aren't necessarily free software, it's labeled with \"NonFreeNet\".\n\nThis app is significantly vibe-coded / created using LLMs. Most of its code has not been thoroughly reviewed by a human.\n\nMatterleast is not affiliated with or endorsed by Mattermost, Inc. Mattermost is a trademark of Mattermost, Inc.\n",
       "license": "Apache-2.0",
       "name": "Matterleast",
@@ -30,7 +30,7 @@
       "summary": "Third-party Mattermost client with a Discord-like feel. Not affiliated with o...",
       "added": 1793088647000,
       "packageName": "io.github.xarantolus.matterleast",
-      "lastUpdated": 1794844415000,
+      "lastUpdated": 1795197152000,
       "localized": {
         "en-US": {
           "icon": "icon_emU1g0kwZUZPFoMQZFU0GppFryIYPf1bNkrzpPSw5U4=.png",
@@ -44,7 +44,7 @@
             "7.jpg",
             "8.jpg"
           ],
-          "whatsNew": "- Release 0.51.0\n- Space the start-up notice with the shared tokens and drop the repeated Try again\n- Show a failed or stalled start with Retry instead of a blank page, and stop start-up inputs from waiting forever\n- Let the gallery finish reading a pasted picture before the test closes the composer, which deletes the copy\n- Build the later-word pattern once per emoji ranking\n- Match the middle of names in mention and emoji suggestions, and type into the open thread's composer\n- Delete the paste"
+          "whatsNew": "- Release 0.52.0\n- Keep the mouse wheel inside a conversation's range on desktop, so a thread never scrolls past its ends\n- Refetch other teams on a reconnect by comparing the server's counts with the stored channels and threads\n- Paint the whole page area when a page's content is shorter than the screen\n- Scroll with the right mouse button held, and keep going after release, on desktop\n- Say in the Stay connected notification that hiding it is safe\n- Offer Message on your own profile too, for n"
         }
       }
     },
@@ -155,6 +155,89 @@
   ],
   "packages": {
     "io.github.xarantolus.matterleast": [
+      {
+        "added": 1795197152000,
+        "apkName": "matterleast_v0.52.0.apk",
+        "hash": "d9e7ef26651203b17dc81054a02b6502d434601fe429278d6b1fb95ac7b7353a",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "io.github.xarantolus.matterleast",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 38067379,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE",
+            null
+          ],
+          [
+            "io.github.xarantolus.matterleast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            30
+          ]
+        ],
+        "versionCode": 84,
+        "versionName": "0.52.0"
+      },
       {
         "added": 1794844415000,
         "apkName": "matterleast_v0.51.0.apk",
